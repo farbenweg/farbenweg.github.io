@@ -17,8 +17,8 @@
       <pubDate>Sun, 29 Mar 2020 12:51:09 +0200</pubDate>
       
       <guid>/2020/03/29/geburtstag/</guid>
-      <description>Heute feiert Findus seinen ersten Geburtstag! Er hat schon viele seiner Lieblingswürstchen geschenkt bekommen.
-Ausserdem hat der Jüngste für seinen Götti ein Geburtstagsgeschenk gemacht:</description>
+      <description>Heute feiert Findus seinen ersten Geburtstag! Er gehört seit letztem Juli zu unserer Familie. Er hat heute schon viele seiner Lieblingswürstchen geschenkt bekommen.
+Ausserdem haben wir ein Armband als Geburtstagsgeschenk für Götti geknüpft:</description>
     </item>
     
     <item>
@@ -27,8 +27,8 @@ Ausserdem hat der Jüngste für seinen Götti ein Geburtstagsgeschenk gemacht:</
       <pubDate>Sat, 28 Mar 2020 12:45:33 +0200</pubDate>
       
       <guid>/2020/03/28/im-wald/</guid>
-      <description>Den wunderbar sonnigen Frühlingstag verbrachten wir im Wald. Auf verschiedenen Pfaden liegen umgestürzte Bäume, die dem Sturm vor ein paar Wochen nicht standgehalten hatten.
-Am Waldboden fand ich eine Feder:</description>
+      <description>Den wunderbar sonnigen Frühlingssamstag verbrachten wir im Wald. Wir waren zwei Erwachsene und drei Kinder. Eine Fünfergruppe von Menschen ist gerade noch erlaubt in der Corona-Situation. Wir brätelten Cervelats und assen Gemüse und Chips. Auf verschiedenen Pfaden liegen umgestürzte Bäume, die dem Sturm vor ein paar Wochen nicht standgehalten hatten.
+Am Waldboden fand ich eine Feder mit wunderschönem Muster. Ich nahm sie mit. Erst ein paar Stunden später fiel mir ein, welcher Vogel solche Federn trägt.</description>
     </item>
     
     <item>
@@ -67,8 +67,8 @@ Am Waldboden fand ich eine Feder:</description>
       <guid>/2020/03/24/website-und-ameisen/</guid>
       <description>Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, Websites mit Hugo zu erstellen.
 Dazu benutze ich die drei Komponenten Hugo, Windows PowerShell ISE und Visual Studio Code.
-Eine Site erstellen md example hugo new site ./  config.toml anpassen:
-baseURL = &amp;quot;http://localhost:1313/&amp;quot; languageCode = &amp;quot;de-de&amp;quot; title = &amp;quot;Beispiel Hugo&amp;quot;  Ein Theme herunterladen cd themes git clone https://github.com/tanksuzuki/hemingway.git cd ../  Das Theme in der Konfigurationsdatei config.</description>
+Eine Site erstellen md blog-lithium hugo new site ./  config.toml anpassen:
+baseURL = &amp;quot;http://localhost:1313/&amp;quot; languageCode = &amp;quot;de-de&amp;quot; title = &amp;quot;Beispiel Hugo&amp;quot;  Ein Theme herunterladen cd themes git clone https://github.com/jrutheiser/hugo-lithium-theme cd ../  Das Theme umbenennen in lithium und in der Konfigurationsdatei config.</description>
     </item>
     
     <item>

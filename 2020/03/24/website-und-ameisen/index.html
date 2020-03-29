@@ -55,13 +55,13 @@
 
   <article class="article">
     
-    <span class="article-duration">2 min read</span>
+    <span class="article-duration">2 min Lesezeit</span>
     
 
     <h1 class="article-title">Website und Ameisen</h1>
 
     
-    <span class="article-date">March 24, 2020</span>
+    <span class="article-date">24.03.2020</span>
     
 
     <div class="article-content">
@@ -73,7 +73,7 @@
 
 <h2 id="eine-site-erstellen">Eine Site erstellen</h2>
 
-<pre><code>md example
+<pre><code>md blog-lithium
 hugo new site ./
 </code></pre>
 
@@ -87,27 +87,29 @@ title = &quot;Beispiel Hugo&quot;
 <h2 id="ein-theme-herunterladen">Ein Theme herunterladen</h2>
 
 <pre><code>cd themes
-git clone https://github.com/tanksuzuki/hemingway.git
+git clone https://github.com/jrutheiser/hugo-lithium-theme
 cd ../
 </code></pre>
 
-<p>Das Theme in der Konfigurationsdatei config.toml als solches festgelegen:</p>
+<p>Das Theme umbenennen in <code>lithium</code> und in der Konfigurationsdatei config.toml als solches festgelegen:</p>
 
 <pre><code>baseURL = &quot;http://localhost:1313/&quot;
 languageCode = &quot;de-de&quot;
 title = &quot;Beispiel Hugo&quot;
-theme = &quot;hemingway&quot;
+theme = &quot;lithium&quot;
 </code></pre>
+
+<p>Dann kopiere ich die Inhalte von ExampleSite in mein Verzeichnis.</p>
 
 <h2 id="einen-inhalt-erstellen">Einen Inhalt erstellen</h2>
 
-<pre><code>hugo new post/erster-post.md
+<pre><code>hugo new post/Website-und-Ameisen.md
 </code></pre>
 
 <p>Es entsteht im Unterverzeichnis <code>content/post/</code> eine Seite, in die ich einen Eintrag schreiben kann:</p>
 
 <pre><code>---
-title: &quot;Erster Post&quot;
+title: &quot;Webseite und Ameisen&quot;
 date: 2020-03-24T09:51:12+01:00
 draft: true
 ---
@@ -120,7 +122,12 @@ Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise.
 
 <p><img src="/images/bild01.jpg" alt="Primel" /></p>
 
-<p>Super, das hat geklappt mit der Foto! Wie ich die Grösse des Bildes ändere, ist mir noch nicht klar.</p>
+<p>Um die Website anzuschauen starte ich</p>
+
+<pre><code>hugo -D serve
+</code></pre>
+
+<p>und gehe auf <a href="http://localhost:1313/">http://localhost:1313/</a>. Das hat geklappt mit der Foto.</p>
 
     </div>
   </article>

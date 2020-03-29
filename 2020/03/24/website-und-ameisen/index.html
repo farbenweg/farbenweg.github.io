@@ -73,25 +73,31 @@
 
 <h2 id="eine-site-erstellen">Eine Site erstellen</h2>
 
+<p>In Windows PowerShell gehe ich ins Verzeichnis C:\Users\monika\farbenweg&gt;. Dort erstelle ich den Ordner blog-lithium und eine neue Hugo Seite:</p>
+
 <pre><code>md blog-lithium
 hugo new site ./
 </code></pre>
 
-<p>config.toml anpassen:</p>
+<p>Automatisch sind die Ordner archetypes, content, data, layouts, resources, static und themes und die Datei config.toml entstanden. Als zweites passe ich die config.toml an:</p>
 
 <pre><code>baseURL = &quot;http://localhost:1313/&quot;
 languageCode = &quot;de-de&quot;
-title = &quot;Beispiel Hugo&quot;
+title = &quot;Farbenweg&quot;
 </code></pre>
 
+<p>Eine leere Seite ist generiert.</p>
+
 <h2 id="ein-theme-herunterladen">Ein Theme herunterladen</h2>
+
+<p>Um ein Theme zu installieren, wechsle ich ins entsprechende Verzeichnis.</p>
 
 <pre><code>cd themes
 git clone https://github.com/jrutheiser/hugo-lithium-theme
 cd ../
 </code></pre>
 
-<p>Das Theme umbenennen in <code>lithium</code> und in der Konfigurationsdatei config.toml als solches festgelegen:</p>
+<p>Das Theme kann in lithium umbenannt und in der Konfigurationsdatei config.toml als solches festgelegt werden:</p>
 
 <pre><code>baseURL = &quot;http://localhost:1313/&quot;
 languageCode = &quot;de-de&quot;
@@ -103,10 +109,12 @@ theme = &quot;lithium&quot;
 
 <h2 id="einen-inhalt-erstellen">Einen Inhalt erstellen</h2>
 
+<p>Um einen ersten Blogeintrag zu erstellen, verwende ich den Befehl hugo new post/___.md:</p>
+
 <pre><code>hugo new post/Website-und-Ameisen.md
 </code></pre>
 
-<p>Es entsteht im Unterverzeichnis <code>content/post/</code> eine Seite, in die ich einen Eintrag schreiben kann:</p>
+<p>Es entsteht im Unterverzeichnis content/post/ eine Seite, in die ich einen Eintrag schreiben kann:</p>
 
 <pre><code>---
 title: &quot;Webseite und Ameisen&quot;
@@ -118,7 +126,7 @@ Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise.
 
 <p>Dazwischen kommt eine Invasion von Ameisen in meinem Zimmer. Nicht in einer Ecke beim Fenster, sondern direkt beim und im (!) Bett. Da heisst es erst mal Möbel verschieben, Ameisen nach draussen befördern und putzen.</p>
 
-<p>Jetzt bin ich zurück und entdecke ich Markdown mit seinen unterschiedlichen Formatierungen. Der letzte Code-Block hat eine merkwürdige Formatierung. Doch ich möchte jetzt noch ein Bild einfügen. Ich lege es in das Verzeichnis static/images.</p>
+<p>Jetzt bin ich zurück und entdecke ich Markdown mit seinen unterschiedlichen Formatierungen. Desweiteren möchte ich jetzt ein Bild einfügen. Ich lege es in das Verzeichnis static/images.</p>
 
 <p><img src="/images/bild01.jpg" alt="Primel" /></p>
 

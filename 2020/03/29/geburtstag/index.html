@@ -69,9 +69,38 @@
 
 <p><img src="/images/20200329a.jpg" alt="Findus" /></p>
 
-<p>Ausserdem haben wir ein Armband als Geburtstagsgeschenk für Götti geknüpft:</p>
+<p>Ausserdem haben wir ein Armband als Geburtstagsgeschenk für Götti geknüpft und eingepackt.</p>
 
 <p><img src="/images/20200329b.JPG" alt="Armband" /></p>
+
+<p>Heute versuchte ich diese Seite nochmals von vorne aufzubauen, um sie besser zu verstehen. Dabei habe ich weitere Anpassungen gemacht. Eine davon ist das Format des Datums in \themes\lithium\layouts\index.html</p>
+
+<pre><code>&lt;article class=&quot;archive-item&quot;&gt;
+  &lt;a href=&quot;{{ .Permalink }}&quot; class=&quot;archive-item-link&quot;&gt;{{ .Title }}&lt;/a&gt;
+  &lt;span class=&quot;archive-item-date&quot;&gt;
+    {{ .Date.Format &quot;02.01.2006&quot; }}
+  &lt;/span&gt;
+&lt;/article&gt;
+</code></pre>
+
+<p>und eine zweite das Format des Datums und der Lesedauer in \themes\lithium\layouts_default\single.html</p>
+
+<pre><code>&lt;article class=&quot;article&quot;&gt;
+    {{ if eq .Section &quot;post&quot; }}
+    &lt;span class=&quot;article-duration&quot;&gt;{{ .ReadingTime }} min Lesezeit&lt;/span&gt;
+    {{ end }}
+
+    &lt;h1 class=&quot;article-title&quot;&gt;{{ .Title }}&lt;/h1&gt;
+
+    {{ if eq .Section &quot;post&quot; }}
+    &lt;span class=&quot;article-date&quot;&gt;{{ .Date.Format &quot;02.01.2006&quot; }}&lt;/span&gt;
+    {{ end }}
+
+    &lt;div class=&quot;article-content&quot;&gt;
+    {{ .Content }}
+    &lt;/div&gt;
+&lt;/article&gt;
+</code></pre>
 
     </div>
   </article>

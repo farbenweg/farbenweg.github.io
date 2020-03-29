@@ -6,19 +6,10 @@
     <description>Recent content in Pages on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Wed, 21 Aug 2019 11:05:27 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 21 Aug 2019 11:03:00 +0200</lastBuildDate>
     
 	<atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Farbenweg</title>
-      <link>/farbenweg/</link>
-      <pubDate>Wed, 21 Aug 2019 11:05:27 +0200</pubDate>
-      
-      <guid>/farbenweg/</guid>
-      <description>Auf dem Farbenweg gehen wir. Wir betätigen, beobachten und verändern uns.</description>
-    </item>
     
     <item>
       <title>Atelier</title>
@@ -27,6 +18,15 @@
       
       <guid>/atelier/</guid>
       <description>Das Atelier des Farbenwegs.</description>
+    </item>
+    
+    <item>
+      <title>Farbenweg</title>
+      <link>/farbenweg/</link>
+      <pubDate>Wed, 21 Aug 2019 11:02:27 +0200</pubDate>
+      
+      <guid>/farbenweg/</guid>
+      <description>Auf dem Farbenweg gehen wir. Wir betätigen, beobachten und verändern uns.</description>
     </item>
     
     <item>

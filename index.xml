@@ -18,7 +18,9 @@
       
       <guid>/2020/03/29/geburtstag/</guid>
       <description>Heute feiert Findus seinen ersten Geburtstag! Er gehört seit letztem Juli zu unserer Familie. Er hat heute schon viele seiner Lieblingswürstchen geschenkt bekommen.
-Ausserdem haben wir ein Armband als Geburtstagsgeschenk für Götti geknüpft:</description>
+Ausserdem haben wir ein Armband als Geburtstagsgeschenk für Götti geknüpft und eingepackt.
+Heute versuchte ich diese Seite nochmals von vorne aufzubauen, um sie besser zu verstehen. Dabei habe ich weitere Anpassungen gemacht. Eine davon ist das Format des Datums in \themes\lithium\layouts\index.html
+&amp;lt;article class=&amp;quot;archive-item&amp;quot;&amp;gt; &amp;lt;a href=&amp;quot;{{ .Permalink }}&amp;quot; class=&amp;quot;archive-item-link&amp;quot;&amp;gt;{{ .</description>
     </item>
     
     <item>
@@ -27,8 +29,8 @@ Ausserdem haben wir ein Armband als Geburtstagsgeschenk für Götti geknüpft:</
       <pubDate>Sat, 28 Mar 2020 12:45:33 +0200</pubDate>
       
       <guid>/2020/03/28/im-wald/</guid>
-      <description>Den wunderbar sonnigen Frühlingssamstag verbrachten wir im Wald. Wir waren zwei Erwachsene und drei Kinder. Eine Fünfergruppe von Menschen ist gerade noch erlaubt in der Corona-Situation. Wir brätelten Cervelats und assen Gemüse und Chips. Auf verschiedenen Pfaden liegen umgestürzte Bäume, die dem Sturm vor ein paar Wochen nicht standgehalten hatten.
-Am Waldboden fand ich eine Feder mit wunderschönem Muster. Ich nahm sie mit. Erst ein paar Stunden später fiel mir ein, welcher Vogel solche Federn trägt.</description>
+      <description>Den wunderbar sonnigen Frühlingssamstag verbrachten wir im Wald und Garten, nachdem wir eine Neoperl-Entkalkung im ganzen Haus durchgeführt hatten. Wir waren zwei Erwachsene und drei Kinder. Eine Fünfergruppe von Menschen ist gerade noch erlaubt in der Corona-Situation. Wir brätelten Cervelats und assen Gemüse und Chips. Auf verschiedenen Pfaden liegen umgestürzte Bäume, die dem Sturm vor ein paar Wochen nicht standgehalten hatten.
+Am Waldboden fand ich eine Feder mit wunderschönem Muster. Ich nahm sie mit.</description>
     </item>
     
     <item>
@@ -67,17 +69,8 @@ Am Waldboden fand ich eine Feder mit wunderschönem Muster. Ich nahm sie mit. Er
       <guid>/2020/03/24/website-und-ameisen/</guid>
       <description>Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, Websites mit Hugo zu erstellen.
 Dazu benutze ich die drei Komponenten Hugo, Windows PowerShell ISE und Visual Studio Code.
-Eine Site erstellen md blog-lithium hugo new site ./  config.toml anpassen:
-baseURL = &amp;quot;http://localhost:1313/&amp;quot; languageCode = &amp;quot;de-de&amp;quot; title = &amp;quot;Beispiel Hugo&amp;quot;  Ein Theme herunterladen cd themes git clone https://github.com/jrutheiser/hugo-lithium-theme cd ../  Das Theme umbenennen in lithium und in der Konfigurationsdatei config.</description>
-    </item>
-    
-    <item>
-      <title>Farbenweg</title>
-      <link>/farbenweg/</link>
-      <pubDate>Wed, 21 Aug 2019 11:05:27 +0200</pubDate>
-      
-      <guid>/farbenweg/</guid>
-      <description>Auf dem Farbenweg gehen wir. Wir betätigen, beobachten und verändern uns.</description>
+Eine Site erstellen In Windows PowerShell gehe ich ins Verzeichnis C:\Users\monika\farbenweg&amp;gt;. Dort erstelle ich den Ordner blog-lithium und eine neue Hugo Seite:
+md blog-lithium hugo new site ./  Automatisch sind die Ordner archetypes, content, data, layouts, resources, static und themes und die Datei config.</description>
     </item>
     
     <item>
@@ -87,6 +80,15 @@ baseURL = &amp;quot;http://localhost:1313/&amp;quot; languageCode = &amp;quot;de
       
       <guid>/atelier/</guid>
       <description>Das Atelier des Farbenwegs.</description>
+    </item>
+    
+    <item>
+      <title>Farbenweg</title>
+      <link>/farbenweg/</link>
+      <pubDate>Wed, 21 Aug 2019 11:02:27 +0200</pubDate>
+      
+      <guid>/farbenweg/</guid>
+      <description>Auf dem Farbenweg gehen wir. Wir betätigen, beobachten und verändern uns.</description>
     </item>
     
     <item>

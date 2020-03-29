@@ -55,7 +55,7 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min Lesezeit</span>
+    <span class="article-duration">2 min Lesezeit</span>
     
 
     <h1 class="article-title">Dran bleiben und ein Helikopter</h1>
@@ -76,8 +76,6 @@
 <li>Der Helikopter dominiert mit seiner Lautstärke.</li>
 </ul>
 
-<p>Als nächstes in der Hugo-Einführung kommt der Teil &ldquo;Ein eigenes Theme erstellen&rdquo;. Das werde ich bald versuchen.</p>
-
 <p>Um die Website auf meiner Github Domain anzuzeigen, gehe ich folgendermassen vor:</p>
 
 <pre><code>rmdir public
@@ -89,7 +87,7 @@ git commit -m &quot;inital commit&quot;
 git push origin master
 </code></pre>
 
-<p>Dann versuche ich <a href="https://farbenweg.github.io/">https://farbenweg.github.io/</a> und es ist nur ein unformatierter Text zu sehen. Es ist nicht das erste Mal, dass ich enttäuscht abbreche. Doch dann ändere ich zwei Dinge: Die Post werden auf</p>
+<p>Dann versuche ich <a href="https://farbenweg.github.io/">https://farbenweg.github.io/</a> und es ist nur ein unformatierter Text zu sehen. Es ist nicht das erste Mal, dass ich enttäuscht abbreche. Doch dann ändere ich zwei Dinge: Die Posts werden auf</p>
 
 <pre><code>draft: false
 </code></pre>
@@ -99,9 +97,26 @@ git push origin master
 <pre><code>baseURL = &quot;https://farbenweg.github.io/&quot;
 </code></pre>
 
-<p>Es klappt nicht gleich. Ein paar Minuten später sehe ich auf meinem Smartphone, dass die Post jetzt alle da sind! Es braucht einfach etwas Zeit, bis das auf der Domain landet.</p>
+<p>Es klappt nicht gleich. Ein paar Minuten später sehe ich auf meinem Smartphone, dass die Posts jetzt alle da sind! Es braucht einfach etwas Zeit, bis sie auf der Domain ankommen.</p>
 
-<p><img src="/images/bild02.jpg" alt="Stiefmütterchen" /></p>
+<p>Jetzt ändere ich das Icon oben links bei der Webseite. Es befindet sich im Ordner <code>themes\lithium\static\images\logo.png</code>. Ich ersetze das Lithium-Logo durch ein Mandala.</p>
+
+<p><img src="/images/logo_large.png" alt="Logo" /></p>
+
+<p>In config.toml ändere ich die Menüeinträge:</p>
+
+<pre><code>[[menu.main]]
+    name = &quot;Farbenweg&quot;
+    url = &quot;/farbenweg/&quot;
+[[menu.main]]
+    name = &quot;Atelier&quot;
+    url = &quot;/atelier/&quot;
+[[menu.main]]
+    name = &quot;Über&quot;
+    url = &quot;/ueber/&quot; 
+</code></pre>
+
+<p>In content/page/ erstelle ich die drei Einträge für die Seiten: Farbenweg.md, Atelier.md und Ueber.md. Diese Seiten können mit Inhalt gefüllt werden.</p>
 
     </div>
   </article>

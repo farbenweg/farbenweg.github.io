@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de-de">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.57.2" />
+
+
+<title>Dran bleiben und ein Helikopter - Farbenweg</title>
+<meta property="og:title" content="Dran bleiben und ein Helikopter - Farbenweg">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png" 
+         width="50" 
+         height="50" 
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/atelier/">Atelier</a></li>
+    
+    <li><a href="/farbenweg/">Farbenweg</a></li>
+    
+    <li><a href="/ueber/">Über</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Dran bleiben und ein Helikopter</h1>
+
+    
+    <span class="article-date">March 25, 2020</span>
+    
+
+    <div class="article-content">
+      <p>Das ist mein zweiter Post. Es ist wichtig, dass ich kontinuierlich neue Einträge mache und ausprobiere. Ich versuche es mit einer Aufzählung. Im Moment nehme ich Folgendes wahr:</p>
+
+<ul>
+<li>Ich höre einen Helikopter, der einen Baum abtransportiert, der gefällt wird.</li>
+<li>Ich sehe ein sauberes Zimmer ohne Ameisen.</li>
+<li>Ich rieche die frische, kühle Frühlingsluft.</li>
+<li>Ich schmecke die getrockenete Mango in meinem Mund.</li>
+<li>Ich spüre meine Kleider.</li>
+<li>Der Helikopter dominiert mit seiner Lautstärke.</li>
+</ul>
+
+<p>Als nächstes in der Hugo-Einführung kommt der Teil &ldquo;Ein eigenes Theme erstellen&rdquo;. Das werde ich bald versuchen.</p>
+
+<p>Jetzt füge ich noch ein Bild ein:</p>
+
+<p><img src="/images/bild02.jpg" alt="Stiefmütterchen" /></p>
+
+<p>Um die Website anzuschauen starte ich</p>
+
+<pre><code>hugo -D serve
+</code></pre>
+
+<p>und gehe auf <a href="http://localhost:1313/">http://localhost:1313/</a>.</p>
+
+<p>Um die Website auf meiner Github Domain anzuzeigen, gehe ich folgendermassen vor:</p>
+
+<pre><code>rmdir public
+git clone https://github.com/farbenweg/farbenweg.github.io public
+hugo
+cd public
+git add --all
+git commit -m &quot;inital commit&quot;
+git push origin master
+</code></pre>
+
+<p>Dann versuche ich <a href="https://farbenweg.github.io/">https://farbenweg.github.io/</a> und es ist nur ein unformatierter Text zu sehen. Es ist nicht das erste Mal, dass ich enttäuscht abbreche. Doch dann ändere ich zwei Dinge: Die Post werden auf</p>
+
+<pre><code>draft: false
+</code></pre>
+
+<p>gestellt. Und die config.toml wird auf eine andere baseURL gelegt:</p>
+
+<pre><code>baseURL = &quot;https://farbenweg.github.io/&quot;
+</code></pre>
+
+<p>Es klappt nicht gleich. Ein paar Minuten später sehe ich auf meinem Smartphone, dass die Post jetzt alle da sind! Es braucht einfach etwas Zeit, bis das auf der Domain landet.</p>
+
+    </div>
+  </article>
+
+  
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+

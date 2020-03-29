@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de-de">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.57.2" />
+
+
+<title>Website und Ameisen - Farbenweg</title>
+<meta property="og:title" content="Website und Ameisen - Farbenweg">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png" 
+         width="50" 
+         height="50" 
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/atelier/">Atelier</a></li>
+    
+    <li><a href="/farbenweg/">Farbenweg</a></li>
+    
+    <li><a href="/ueber/">Über</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Website und Ameisen</h1>
+
+    
+    <span class="article-date">March 24, 2020</span>
+    
+
+    <div class="article-content">
+      
+
+<p>Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, <strong>Websites</strong> mit Hugo zu erstellen.</p>
+
+<p>Dazu benutze ich die drei Komponenten <strong>Hugo</strong>, <strong>Windows PowerShell ISE</strong> und <strong>Visual Studio Code</strong>.</p>
+
+<h2 id="eine-site-erstellen">Eine Site erstellen</h2>
+
+<pre><code>md example
+hugo new site ./
+</code></pre>
+
+<p>config.toml anpassen:</p>
+
+<pre><code>baseURL = &quot;http://localhost:1313/&quot;
+languageCode = &quot;de-de&quot;
+title = &quot;Beispiel Hugo&quot;
+</code></pre>
+
+<h2 id="ein-theme-herunterladen">Ein Theme herunterladen</h2>
+
+<pre><code>cd themes
+git clone https://github.com/tanksuzuki/hemingway.git
+cd ../
+</code></pre>
+
+<p>Das Theme in der Konfigurationsdatei config.toml als solches festgelegen:</p>
+
+<pre><code>baseURL = &quot;http://localhost:1313/&quot;
+languageCode = &quot;de-de&quot;
+title = &quot;Beispiel Hugo&quot;
+theme = &quot;hemingway&quot;
+</code></pre>
+
+<h2 id="einen-inhalt-erstellen">Einen Inhalt erstellen</h2>
+
+<pre><code>hugo new post/erster-post.md
+</code></pre>
+
+<p>Es entsteht im Unterverzeichnis <code>content/post/</code> eine Seite, in die ich einen Eintrag schreiben kann:</p>
+
+<pre><code>---
+title: &quot;Erster Post&quot;
+date: 2020-03-24T09:51:12+01:00
+draft: true
+---
+Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise.
+</code></pre>
+
+<p>Dazwischen kommt eine Invasion von Ameisen in meinem Zimmer. Nicht in einer Ecke beim Fenster, sondern direkt beim und im (!) Bett. Da heisst es erst mal Möbel verschieben, Ameisen nach draussen befördern und putzen.</p>
+
+<p>Jetzt bin ich zurück und entdecke ich Markdown mit seinen unterschiedlichen Formatierungen. Der letzte Code-Block hat eine merkwürdige Formatierung. Doch ich möchte jetzt noch ein Bild einfügen. Ich lege es in das Verzeichnis static/images.</p>
+
+<p><img src="/images/bild01.jpg" alt="Primel" /></p>
+
+<p>Super, das hat geklappt mit der Foto! Wie ich die Grösse des Bildes ändere, ist mir noch nicht klar.</p>
+
+    </div>
+  </article>
+
+  
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Farbenweg</title>
+    <link>/page/</link>
+    <description>Recent content in Pages on Farbenweg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Wed, 21 Aug 2019 11:05:27 +0200</lastBuildDate>
+    
+	<atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Farbenweg</title>
+      <link>/farbenweg/</link>
+      <pubDate>Wed, 21 Aug 2019 11:05:27 +0200</pubDate>
+      
+      <guid>/farbenweg/</guid>
+      <description>Auf dem Farbenweg gehen wir. Wir betätigen, beobachten und verändern uns.</description>
+    </item>
+    
+    <item>
+      <title>Atelier</title>
+      <link>/atelier/</link>
+      <pubDate>Wed, 21 Aug 2019 11:03:00 +0200</pubDate>
+      
+      <guid>/atelier/</guid>
+      <description>Das Atelier des Farbenwegs.</description>
+    </item>
+    
+    <item>
+      <title>Ueber</title>
+      <link>/ueber/</link>
+      <pubDate>Tue, 20 Aug 2019 15:11:10 +0200</pubDate>
+      
+      <guid>/ueber/</guid>
+      <description>Das ist der Farbenweg.</description>
+    </item>
+    
+  </channel>
+</rss>

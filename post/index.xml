@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Farbenweg</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Farbenweg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Sun, 29 Mar 2020 12:51:09 +0200</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geburtstag</title>
+      <link>/2020/03/29/geburtstag/</link>
+      <pubDate>Sun, 29 Mar 2020 12:51:09 +0200</pubDate>
+      
+      <guid>/2020/03/29/geburtstag/</guid>
+      <description>Heute feiert Findus seinen ersten Geburtstag! Er hat schon viele seiner Lieblingswürstchen geschenkt bekommen.
+Ausserdem hat der Jüngste für seinen Götti ein Geburtstagsgeschenk gemacht:</description>
+    </item>
+    
+    <item>
+      <title>Im Wald</title>
+      <link>/2020/03/28/im-wald/</link>
+      <pubDate>Sat, 28 Mar 2020 12:45:33 +0200</pubDate>
+      
+      <guid>/2020/03/28/im-wald/</guid>
+      <description>Den wunderbar sonnigen Frühlingstag verbrachten wir im Wald. Auf verschiedenen Pfaden liegen umgestürzte Bäume, die dem Sturm vor ein paar Wochen nicht standgehalten hatten.
+Am Waldboden fand ich eine Feder:</description>
+    </item>
+    
+    <item>
+      <title>Willkommensschild</title>
+      <link>/2020/03/27/willkommensschild/</link>
+      <pubDate>Fri, 27 Mar 2020 17:28:30 +0100</pubDate>
+      
+      <guid>/2020/03/27/willkommensschild/</guid>
+      <description>Heute konnte ich das Willkommensschild beim Eingang der Kellertreppe aufhängen. Angefertigt hatte ich das Mosaik im November 2018. So sieht es aus:</description>
+    </item>
+    
+    <item>
+      <title>Kellertreppe</title>
+      <link>/2020/03/26/kellertreppe/</link>
+      <pubDate>Thu, 26 Mar 2020 15:46:37 +0100</pubDate>
+      
+      <guid>/2020/03/26/kellertreppe/</guid>
+      <description>Heute entsteht der dritte Eintrag. Es freut mich sehr, dass die Kellertreppe nach fast vier Monaten fertig geworden ist. Die Wände hatte ich schon letztes Jahr weiss gestrichen. Im Januar hatte ich mit der grauen Bodenfarbe begonnen. Dann malte ich die zweitoberste Frontseite mit roter Abtönfarbe. Es folgten Magenta ganz oben und dann ging es abwärts, bis ich heute wieder bei Magenta ganz unten ankam. Jetzt sieht die Treppe so aus:</description>
+    </item>
+    
+    <item>
+      <title>Dran bleiben und ein Helikopter</title>
+      <link>/2020/03/25/dran-bleiben-und-ein-helikopter/</link>
+      <pubDate>Wed, 25 Mar 2020 11:43:23 +0100</pubDate>
+      
+      <guid>/2020/03/25/dran-bleiben-und-ein-helikopter/</guid>
+      <description>Das ist mein zweiter Post. Es ist wichtig, dass ich kontinuierlich neue Einträge mache und ausprobiere. Ich versuche es mit einer Aufzählung. Im Moment nehme ich Folgendes wahr:
+ Ich höre einen Helikopter, der einen Baum abtransportiert, der gefällt wird. Ich sehe ein sauberes Zimmer ohne Ameisen. Ich rieche die frische, kühle Frühlingsluft. Ich schmecke die getrockenete Mango in meinem Mund. Ich spüre meine Kleider. Der Helikopter dominiert mit seiner Lautstärke.</description>
+    </item>
+    
+    <item>
+      <title>Website und Ameisen</title>
+      <link>/2020/03/24/website-und-ameisen/</link>
+      <pubDate>Tue, 24 Mar 2020 09:51:12 +0100</pubDate>
+      
+      <guid>/2020/03/24/website-und-ameisen/</guid>
+      <description>Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, Websites mit Hugo zu erstellen.
+Dazu benutze ich die drei Komponenten Hugo, Windows PowerShell ISE und Visual Studio Code.
+Eine Site erstellen md example hugo new site ./  config.toml anpassen:
+baseURL = &amp;quot;http://localhost:1313/&amp;quot; languageCode = &amp;quot;de-de&amp;quot; title = &amp;quot;Beispiel Hugo&amp;quot;  Ein Theme herunterladen cd themes git clone https://github.com/tanksuzuki/hemingway.git cd ../  Das Theme in der Konfigurationsdatei config.</description>
+    </item>
+    
+    <item>
+      <title>Willkommen</title>
+      <link>/2019/08/20/willkommen/</link>
+      <pubDate>Tue, 20 Aug 2019 14:42:00 +0200</pubDate>
+      
+      <guid>/2019/08/20/willkommen/</guid>
+      <description>Herzlich willkommen auf dem Farbenweg.</description>
+    </item>
+    
+  </channel>
+</rss>

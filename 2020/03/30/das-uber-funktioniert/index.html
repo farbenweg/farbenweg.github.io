@@ -7,8 +7,8 @@
 <meta name="generator" content="Hugo 0.57.2" />
 
 
-<title>Kellertreppe - Farbenweg</title>
-<meta property="og:title" content="Kellertreppe - Farbenweg">
+<title>Das Über funktioniert - Farbenweg</title>
+<meta property="og:title" content="Das Über funktioniert - Farbenweg">
 
 
   <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -59,17 +59,28 @@
     <span class="article-duration">1 min Lesezeit</span>
     
 
-    <h1 class="article-title">Kellertreppe</h1>
+    <h1 class="article-title">Das Über funktioniert</h1>
 
     
-    <span class="article-date">26.03.2020</span>
+    <span class="article-date">30.03.2020</span>
     
 
     <div class="article-content">
-      <p>Heute entsteht der dritte Eintrag. Es freut mich sehr, dass die Kellertreppe nach fast vier Monaten fertig geworden ist. Die Wände hatte ich schon letztes Jahr weiss gestrichen. Im Januar hatte ich mit der grauen Bodenfarbe begonnen. Dann malte ich die zweitoberste Frontseite mit roter Abtönfarbe. Es folgten Magenta ganz oben und dann ging es abwärts, bis ich heute wieder bei Magenta ganz unten ankam. Jetzt sieht die Treppe so aus:</p>
+      <p>Das war eine längere Sache. Schon seit letztem August fragte ich mich, ob in Hugo deutsche Page-Titel funktionieren. Vor allem für die Über-Seite war es mir wichtig. Die Lösung habe ich heute hier gefunden:</p>
 
-<p><img src="/images/20200326b.jpg" alt="Kellertreppe2" />
-<img src="/images/20200326.jpg" alt="Kellertreppe1" /></p>
+<p><a href="https://discourse.gohugo.io/t/make-url-use-only-ascii-characters/7592">https://discourse.gohugo.io/t/make-url-use-only-ascii-characters/7592</a></p>
+
+<p>Das heisst, es braucht nur eine Zeile in der config.toml:</p>
+
+<pre><code>RemovePathAccents = true
+</code></pre>
+
+<p>Im Titel ist jetzt ein Über anstelle von Ueber zu sehen! In der URL ist einfach ein u anstelle des ü:</p>
+
+<pre><code>https://farbenweg.github.io/uber.html
+</code></pre>
+
+<p>Und entsprechend sieht es für den Titel dieses Posts aus. Sehr schön, dass die Lösung so einfach war.</p>
 
     </div>
   </article>

@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-03-29T12:51:09+02:00</lastmod>
+    <loc>/2020/03/30/das-uber-funktioniert/</loc>
+    <lastmod>2020-03-30T17:30:49+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/2020/03/29/geburtstag/</loc>
-    <lastmod>2020-03-29T12:51:09+02:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-03-30T17:30:49+02:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2020-03-30T17:30:49+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/03/29/geburtstag/</loc>
     <lastmod>2020-03-29T12:51:09+02:00</lastmod>
   </url>
   
@@ -58,7 +63,7 @@
   </url>
   
   <url>
-    <loc>/ueber/</loc>
+    <loc>/uber/</loc>
     <lastmod>2019-08-20T15:11:10+02:00</lastmod>
   </url>
   

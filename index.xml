@@ -6,10 +6,22 @@
     <description>Recent content on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sun, 29 Mar 2020 12:51:09 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2020 17:30:49 +0200</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Das Über funktioniert</title>
+      <link>/2020/03/30/das-uber-funktioniert/</link>
+      <pubDate>Mon, 30 Mar 2020 17:30:49 +0200</pubDate>
+      
+      <guid>/2020/03/30/das-uber-funktioniert/</guid>
+      <description>Das war eine längere Sache. Schon seit letztem August fragte ich mich, ob in Hugo deutsche Page-Titel funktionieren. Vor allem für die Über-Seite war es mir wichtig. Die Lösung habe ich heute hier gefunden:
+https://discourse.gohugo.io/t/make-url-use-only-ascii-characters/7592
+Das heisst, es braucht nur eine Zeile in der config.toml:
+RemovePathAccents = true  Im Titel ist jetzt ein Über anstelle von Ueber zu sehen! In der URL ist einfach ein u anstelle des ü:</description>
+    </item>
     
     <item>
       <title>Geburtstag</title>
@@ -69,7 +81,7 @@ Am Waldboden fand ich eine Feder mit wunderschönem Muster. Ich nahm sie mit.</d
       <guid>/2020/03/24/website-und-ameisen/</guid>
       <description>Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, Websites mit Hugo zu erstellen.
 Dazu benutze ich die drei Komponenten Hugo, Windows PowerShell ISE und Visual Studio Code.
-Eine Site erstellen In Windows PowerShell gehe ich ins Verzeichnis C:\Users\monika\farbenweg&amp;gt;. Dort erstelle ich den Ordner blog-lithium und eine neue Hugo Seite:
+Eine Site erstellen In Windows PowerShell gehe ich ins Verzeichnis \farbenweg&amp;gt;. Dort erstelle ich den Ordner blog-lithium und eine neue Hugo Seite:
 md blog-lithium hugo new site ./  Automatisch sind die Ordner archetypes, content, data, layouts, resources, static und themes und die Datei config.</description>
     </item>
     
@@ -92,11 +104,11 @@ md blog-lithium hugo new site ./  Automatisch sind die Ordner archetypes, conten
     </item>
     
     <item>
-      <title>Ueber</title>
-      <link>/ueber/</link>
+      <title>Über</title>
+      <link>/uber/</link>
       <pubDate>Tue, 20 Aug 2019 15:11:10 +0200</pubDate>
       
-      <guid>/ueber/</guid>
+      <guid>/uber/</guid>
       <description></description>
     </item>
     

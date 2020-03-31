@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Mon, 30 Mar 2020 17:30:49 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2020 20:52:29 +0200</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ein erstes Logo</title>
+      <link>/2020/03/31/ein-erstes-logo/</link>
+      <pubDate>Tue, 31 Mar 2020 20:52:29 +0200</pubDate>
+      
+      <guid>/2020/03/31/ein-erstes-logo/</guid>
+      <description>Heute habe ich einen ersten Logo-Entwurf gemacht:</description>
+    </item>
     
     <item>
       <title>Das Über funktioniert</title>

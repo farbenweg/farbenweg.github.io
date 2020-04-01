@@ -6,10 +6,21 @@
     <description>Recent content on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 31 Mar 2020 20:52:29 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 21:57:20 +0200</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Farbige Details</title>
+      <link>/2020/04/01/farbige-details/</link>
+      <pubDate>Wed, 01 Apr 2020 21:57:20 +0200</pubDate>
+      
+      <guid>/2020/04/01/farbige-details/</guid>
+      <description>Das Logo von gestern habe ich noch leicht überarbeitet.
+Ausserdem habe ich den RSS-Feed in footer.html heraus genommen und das Copyright eingefügt.
+&amp;lt;footer class=&amp;quot;footer&amp;quot;&amp;gt; &amp;lt;ul class=&amp;quot;footer-links&amp;quot;&amp;gt; &amp;lt;!--&amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;{{ .Site.RSSLink }}&amp;quot; type=&amp;quot;application/rss+xml&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;RSS feed&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt;--&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a&amp;gt;© 2020 by Farbenweg&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;https://gohugo.io/&amp;quot; class=&amp;quot;footer-links-kudos&amp;quot;&amp;gt;Made with &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}images/hugo-logo.png&amp;quot; width=&amp;quot;22&amp;quot; height=&amp;quot;22&amp;quot;&amp;gt;&amp;lt;/a&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/footer&amp;gt; &amp;lt;/div&amp;gt; {{ template &amp;quot;_internal/google_analytics.html&amp;quot; . }} &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;  Die Blog-Titel sind jetzt grün. Das habe ich in main.</description>
+    </item>
     
     <item>
       <title>Ein erstes Logo</title>
@@ -50,8 +61,8 @@ Heute versuchte ich diese Seite nochmals von vorne aufzubauen, um sie besser zu 
       <pubDate>Sat, 28 Mar 2020 12:45:33 +0200</pubDate>
       
       <guid>/2020/03/28/im-wald/</guid>
-      <description>Den wunderbar sonnigen Frühlingssamstag verbrachten wir im Wald und Garten, nachdem wir eine Neoperl-Entkalkung im ganzen Haus durchgeführt hatten. Wir waren zwei Erwachsene und drei Kinder. Eine Fünfergruppe von Menschen ist gerade noch erlaubt in der Corona-Situation. Wir brätelten Cervelats und assen Gemüse und Chips. Auf verschiedenen Pfaden liegen umgestürzte Bäume, die dem Sturm vor ein paar Wochen nicht standgehalten hatten.
-Am Waldboden fand ich eine Feder mit wunderschönem Muster. Ich nahm sie mit.</description>
+      <description>Den wunderbar sonnigen Frühlingssamstag verbrachten wir im Wald und Garten, nachdem wir eine Neoperl-Entkalkung im ganzen Haus durchgeführt hatten. Wir waren zwei Erwachsene und drei Kinder. Beim Felsen brätelten wir Cervelats und assen Gemüse, Chips und Brot. Auf verschiedenen Pfaden liegen umgestürzte Bäume, die dem Sturm vor ein paar Wochen nicht standgehalten hatten.
+Am Waldboden fand ich eine Feder mit wunderschönem Muster. Ich nahm sie mit. Erst ein paar Stunden später fiel mir ein, welcher Vogel solche Federn trägt.</description>
     </item>
     
     <item>
@@ -95,21 +106,21 @@ md blog-lithium hugo new site ./  Automatisch sind die Ordner archetypes, conten
     </item>
     
     <item>
-      <title>Atelier</title>
-      <link>/atelier/</link>
+      <title>Kontakt</title>
+      <link>/kontakt/</link>
       <pubDate>Wed, 21 Aug 2019 11:03:00 +0200</pubDate>
       
-      <guid>/atelier/</guid>
-      <description>Das Atelier des Farbenwegs.</description>
+      <guid>/kontakt/</guid>
+      <description>Kontakt.</description>
     </item>
     
     <item>
-      <title>Farbenweg</title>
-      <link>/farbenweg/</link>
+      <title>Atelier</title>
+      <link>/atelier/</link>
       <pubDate>Wed, 21 Aug 2019 11:02:27 +0200</pubDate>
       
-      <guid>/farbenweg/</guid>
-      <description>Auf dem Farbenweg gehen wir. Wir betätigen, beobachten und verändern uns.</description>
+      <guid>/atelier/</guid>
+      <description>Das Atelier ist im Entstehen.</description>
     </item>
     
     <item>

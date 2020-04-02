@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Wed, 01 Apr 2020 21:57:20 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2020 22:25:46 +0200</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Favicon</title>
+      <link>/2020/04/02/favicon/</link>
+      <pubDate>Thu, 02 Apr 2020 22:25:46 +0200</pubDate>
+      
+      <guid>/2020/04/02/favicon/</guid>
+      <description>Heute habe ich versucht, das Favicon zu konfigurieren. Ich kopierte es vom Hugo Simplicity Theme, da es im Lithium noch nicht klappte. Im Simplicity Theme befindet sich das Favicon im Verzeichnis assets/images/favicon.ico. Auch jetzt klappt es noch nicht einwandfrei.</description>
+    </item>
     
     <item>
       <title>Farbige Details</title>

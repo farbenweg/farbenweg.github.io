@@ -17,7 +17,9 @@
       <pubDate>Thu, 02 Apr 2020 22:25:46 +0200</pubDate>
       
       <guid>/2020/04/02/favicon/</guid>
-      <description>Heute habe ich versucht, das Favicon zu konfigurieren. Ich kopierte es vom Hugo Simplicity Theme, da es im Lithium noch nicht klappte. Im Simplicity Theme befindet sich das Favicon im Verzeichnis assets/images/favicon.ico. Auch jetzt klappt es noch nicht einwandfrei.</description>
+      <description>Heute habe ich versucht, das Favicon zu konfigurieren. Ich kopierte es vom Hugo Simplicity Theme, da es im Lithium noch nicht klappte. Im Simplicity Theme befindet sich das Favicon im Verzeichnis assets/images/favicon.ico und das Apple-Touch-Icon im Verzeichnis assets/images/apple-touch-icon.png.
+Dazu machte ich in head.html die folgenden Einträge:
+&amp;lt;!-- Icons --&amp;gt; {{ $touchicon := resources.Get &amp;quot;/src/images/apple-touch-icon.png&amp;quot; }} {{ $favicon := resources.Get &amp;quot;/src/images/favicon.ico&amp;quot; }} &amp;lt;link rel=&amp;quot;apple-touch-icon-precomposed&amp;quot; sizes=&amp;quot;144x144&amp;quot; href=&amp;quot;{{ $touchicon.RelPermalink }}&amp;quot;&amp;gt; &amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;{{ $favicon.</description>
     </item>
     
     <item>

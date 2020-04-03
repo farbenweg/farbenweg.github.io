@@ -69,9 +69,20 @@
     
 
     <div class="article-content">
-      <p>Heute habe ich versucht, das Favicon zu konfigurieren. Ich kopierte es vom Hugo Simplicity Theme, da es im Lithium noch nicht klappte. Im Simplicity Theme befindet sich das Favicon im Verzeichnis assets/images/favicon.ico. Auch jetzt klappt es noch nicht einwandfrei.</p>
+      <p>Heute habe ich versucht, das Favicon zu konfigurieren. Ich kopierte es vom Hugo Simplicity Theme, da es im Lithium noch nicht klappte. Im Simplicity Theme befindet sich das Favicon im Verzeichnis assets/images/favicon.ico und das Apple-Touch-Icon im Verzeichnis assets/images/apple-touch-icon.png.</p>
 
 <p><img src="/images/favicon.ico" alt="Favicon" /></p>
+
+<p>Dazu machte ich in head.html die folgenden Einträge:</p>
+
+<pre><code>&lt;!-- Icons --&gt;
+{{ $touchicon := resources.Get &quot;/src/images/apple-touch-icon.png&quot; }}
+{{ $favicon := resources.Get &quot;/src/images/favicon.ico&quot; }}
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;{{ $touchicon.RelPermalink }}&quot;&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;{{ $favicon.RelPermalink }}&quot;&gt;
+</code></pre>
+
+<p>Die Icons kopierte ich nicht nur in den Ordner assets/images/, sondern auch in den Ordner resources/_gen/images/. Dann funktionierte das Anzeigen der Icons.</p>
 
 <p><img src="/images/favicon_gross.png" alt="Favicon_gross" /></p>
 

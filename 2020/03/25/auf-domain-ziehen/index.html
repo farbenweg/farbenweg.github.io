@@ -7,8 +7,8 @@
 <meta name="generator" content="Hugo 0.57.2" />
 
 
-<title>Das Über funktioniert - Farbenweg</title>
-<meta property="og:title" content="Das Über funktioniert - Farbenweg">
+<title>Auf Domain ziehen - Farbenweg</title>
+<meta property="og:title" content="Auf Domain ziehen - Farbenweg">
 
 
 
@@ -72,28 +72,52 @@
     <span class="article-duration">1 min Lesezeit</span>
     
 
-    <h1 class="article-title">Das Über funktioniert</h1>
+    <h1 class="article-title">Auf Domain ziehen</h1>
 
     
-    <span class="article-date">30.03.2020</span>
+    <span class="article-date">25.03.2020</span>
     
 
     <div class="article-content">
-      <p>Das war eine längere Sache. Schon seit letztem August fragte ich mich, ob in Hugo deutsche Page-Titel funktionieren. Vor allem für die Über-Seite war es mir wichtig. Die Lösung habe ich heute hier gefunden:</p>
+      <p>Das ist mein zweiter Post.</p>
 
-<p><a href="https://discourse.gohugo.io/t/make-url-use-only-ascii-characters/7592">https://discourse.gohugo.io/t/make-url-use-only-ascii-characters/7592</a></p>
+<p>Um die Website auf meiner Github Domain anzuzeigen, gehe ich folgendermassen vor:</p>
 
-<p>Das heisst, es braucht nur eine Zeile in der config.toml:</p>
-
-<pre><code>RemovePathAccents = true
+<pre><code>rmdir public
+git clone https://github.com/farbenweg/farbenweg.github.io public
+hugo
+cd public
+git add --all
+git commit -m &quot;inital commit&quot;
+git push origin master
 </code></pre>
 
-<p>Im Titel ist jetzt ein Über anstelle von Ueber zu sehen! In der URL ist einfach ein u anstelle des ü:</p>
+<p>Dann versuche ich <a href="https://farbenweg.github.io/">https://farbenweg.github.io/</a> und es ist nur ein unformatierter Text zu sehen. Es ist nicht das erste Mal, dass ich enttäuscht abbreche. Doch dann ändere ich zwei Dinge: Die Posts werden auf</p>
 
-<pre><code>https://farbenweg.github.io/uber.html
+<pre><code>draft: false
 </code></pre>
 
-<p>Und entsprechend sieht es für den Titel dieses Posts aus. Sehr schön, dass die Lösung so einfach war.</p>
+<p>gestellt. Und die config.toml wird auf eine andere baseURL gelegt:</p>
+
+<pre><code>baseURL = &quot;https://farbenweg.github.io/&quot;
+</code></pre>
+
+<p>Es klappt nicht gleich. Ein paar Minuten später sehe ich auf meinem Smartphone, dass die Posts jetzt alle da sind! Es braucht einfach etwas Zeit, bis sie auf der Domain ankommen.</p>
+
+<p>In config.toml ändere ich die Menüeinträge:</p>
+
+<pre><code>[[menu.main]]
+    name = &quot;Farbenweg&quot;
+    url = &quot;/farbenweg/&quot;
+[[menu.main]]
+    name = &quot;Atelier&quot;
+    url = &quot;/atelier/&quot;
+[[menu.main]]
+    name = &quot;Über&quot;
+    url = &quot;/ueber/&quot; 
+</code></pre>
+
+<p>In content/page/ erstelle ich die drei Einträge für die Seiten: Farbenweg.md, Atelier.md und Ueber.md. Diese Seiten können mit Inhalt gefüllt werden.</p>
 
     </div>
   </article>

@@ -17,7 +17,7 @@
       <pubDate>Sat, 04 Apr 2020 10:57:46 +0200</pubDate>
       
       <guid>/2020/04/04/favicon/</guid>
-      <description>Seit drei Tagen übe ich mich an den Icons der Webseite. Ich habe gesehen, dass es zwei Arten von Icons gibt. Die ganz kleinen nennen sich favicon.ico oder favicon.png und befinden sich oben im Fenster oder im Tab. Sie sind 16 x 16 Pixel oder 32 x 32 Pixel klein:
+      <description>Seit drei Tagen übe ich mich an den Icons der Webseite. Ich habe gesehen, dass es zwei Arten von Icons gibt. Die ganz kleinen nennen sich favicon.ico oder favicon.png und befinden sich oben im Fenster oder im Tab. Sie sind 16 x 16 Pixel, 32 x 32 Pixel oder 48 x 48 Pixel klein:
 favicon-16x16.png
 favicon-32x32.png
 favicon.ico
@@ -97,21 +97,22 @@ Am Waldboden fand ich eine Feder mit wunderschönem Muster. Ich nahm sie mit. Er
     </item>
     
     <item>
-      <title>Dran bleiben und ein Helikopter</title>
-      <link>/2020/03/25/dran-bleiben-und-ein-helikopter/</link>
+      <title>Auf Domain ziehen</title>
+      <link>/2020/03/25/auf-domain-ziehen/</link>
       <pubDate>Wed, 25 Mar 2020 11:43:23 +0100</pubDate>
       
-      <guid>/2020/03/25/dran-bleiben-und-ein-helikopter/</guid>
-      <description>Das ist mein zweiter Post. Es ist wichtig, dass ich kontinuierlich neue Einträge mache und ausprobiere. Ich versuche es mit einer Aufzählung. Im Moment nehme ich Folgendes wahr:
- Ich höre einen Helikopter, der einen Baum abtransportiert, der gefällt wird. Ich sehe ein sauberes Zimmer ohne Ameisen. Ich rieche die frische, kühle Frühlingsluft. Ich schmecke die getrockenete Mango in meinem Mund. Ich spüre meine Kleider. Der Helikopter dominiert mit seiner Lautstärke.</description>
+      <guid>/2020/03/25/auf-domain-ziehen/</guid>
+      <description>Das ist mein zweiter Post.
+Um die Website auf meiner Github Domain anzuzeigen, gehe ich folgendermassen vor:
+rmdir public git clone https://github.com/farbenweg/farbenweg.github.io public hugo cd public git add --all git commit -m &amp;quot;inital commit&amp;quot; git push origin master  Dann versuche ich https://farbenweg.github.io/ und es ist nur ein unformatierter Text zu sehen. Es ist nicht das erste Mal, dass ich enttäuscht abbreche. Doch dann ändere ich zwei Dinge: Die Posts werden auf</description>
     </item>
     
     <item>
-      <title>Website und Ameisen</title>
-      <link>/2020/03/24/website-und-ameisen/</link>
+      <title>Website</title>
+      <link>/2020/03/24/website/</link>
       <pubDate>Tue, 24 Mar 2020 09:51:12 +0100</pubDate>
       
-      <guid>/2020/03/24/website-und-ameisen/</guid>
+      <guid>/2020/03/24/website/</guid>
       <description>Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, Websites mit Hugo zu erstellen.
 Dazu benutze ich die drei Komponenten Hugo, Windows PowerShell ISE und Visual Studio Code.
 Eine Site erstellen In Windows PowerShell gehe ich ins Verzeichnis \farbenweg&amp;gt;. Dort erstelle ich den Ordner blog-lithium und eine neue Hugo Seite:

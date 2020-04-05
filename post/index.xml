@@ -21,7 +21,7 @@
 favicon-16x16.png
 favicon-32x32.png
 favicon.ico
-Dann gibt es etwas grössere Icons, die sich touch-icon nennen. Sie tauchen z.B. im Browser auf, wenn eine Seite als wichtig angesehen wird.</description>
+Dann gibt es etwas grössere Icons, die sich touch-icon.png oder apple-icon.png nennen. Sie werden in den mobilen Browsern verwendet oder bei grösseren Icons wie den häufig besuchten Webseiten im Browser.</description>
     </item>
     
     <item>

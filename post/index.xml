@@ -19,7 +19,8 @@
       <guid>/2020/04/08/neues-layout/</guid>
       <description>Das neue Layout umfasst
  neue Schriftarten,  Merienda für die Titel, Open Sans für die Texte,  einen höheren und hellgrünen Header, ein grösseres Logo im Header, grössere Schriftarten für die Navigation und grüne Schrift beim Überfahren der Navigation.  Der Code in /themes/lithium/layouts/partials/head.html lautet dann:
-&amp;lt;link href=&#39;https://fonts.googleapis.com/css?family=Merienda&#39; rel=&#39;stylesheet&#39;&amp;gt; &amp;lt;link href=&#39;http://fonts.googleapis.com/css?family=Open+Sans&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&amp;gt;  In /themes/lithium/static/css/main.css</description>
+&amp;lt;link href=&#39;https://fonts.googleapis.com/css?family=Merienda&#39; rel=&#39;stylesheet&#39;&amp;gt; &amp;lt;link href=&#39;http://fonts.googleapis.com/css?family=Open+Sans&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&amp;gt;  In /themes/lithium/static/css/main.css gab es viele kleine Änderungen:
+body { font-family: &amp;quot;Open Sans&amp;quot;, sans-serif; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; /*-moz-font-feature-settings: &amp;quot;liga&amp;quot; on;*/ } h1, h2, h3, h4, h5, h6 { font-family: &#39;Merienda&#39;, sans-serif; color: rgb(0, 190, 0); } .</description>
     </item>
     
     <item>

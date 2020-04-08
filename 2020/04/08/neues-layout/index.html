@@ -125,7 +125,62 @@
 &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'&gt;
 </code></pre>
 
-<p>In /themes/lithium/static/css/main.css</p>
+<p>In /themes/lithium/static/css/main.css gab es viele kleine Änderungen:</p>
+
+<pre><code>body {
+font-family: &quot;Open Sans&quot;, sans-serif;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+/*-moz-font-feature-settings: &quot;liga&quot; on;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: 'Merienda', sans-serif;
+color: rgb(0, 190, 0);
+}
+
+.nav {
+max-width: 800px;
+margin: 0 auto;
+padding: 0 15px;
+font-family: 'Merienda', sans-serif;
+text-align: right;
+}
+
+.nav-logo img {
+display: block;
+max-height: 160px;
+width: auto;
+}
+
+.nav-links a:hover {
+color: rgb(0, 190, 0);
+}
+
+@media (min-width: 600px) {
+.header {
+    padding: 80px 0;
+}
+
+.nav-logo {
+    margin-top: -55px;
+}
+
+.nav-logo img {
+    max-height: 160px;
+}
+
+.nav-links {
+    font-size: 25px;
+    font-weight: bold;
+}
+</code></pre>
 
     </div>
   </article>

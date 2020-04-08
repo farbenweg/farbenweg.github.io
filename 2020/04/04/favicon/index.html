@@ -3,8 +3,6 @@
 <html lang="de-de">
   <head>
     
-<meta property="og:image" content="https://farbenweg.github.io/android-icon-512x512.png" />
-<meta property="og:url" content="https://farbenweg.github.io/" />
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,8 +27,17 @@
 <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
 <link rel="stylesheet" href="/css/main.css" media="all">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
 
 
+<link rel="icon" type="image/ico" sizes="16x16" href="/favicon.ico">
+<link rel="icon" type="image/ico" sizes="32x32" href="/favicon.ico">
+<link rel="icon" type="image/ico" sizes="64x64" href="/favicon.ico">
+
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-icon-60x60.png">
@@ -41,24 +48,22 @@
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-icon-144x144.png">
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-icon-152x152.png">
 <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="apple-touch-icon-precomposed" sizes="192x192" href="/apple-icon-192x192.png">
 
+<link rel="icon" type="image/png" sizes="36x36"  href="/android-icon-36x36.png">
+<link rel="icon" type="image/png" sizes="48x48"  href="/android-icon-48x48.png">
+<link rel="icon" type="image/png" sizes="72x72"  href="/android-icon-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96"  href="/android-icon-96x96.png">
+<link rel="icon" type="image/png" sizes="144x144"  href="/android-icon-144x144.png">
 <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
 <link rel="icon" type="image/png" sizes="256x256"  href="/android-icon-256x256.png">
 <link rel="icon" type="image/png" sizes="512x512"  href="/android-icon-512x512.png">
-
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-
-
-<link rel="icon" type="image/ico" sizes="16x16" href="/favicon.ico">
-<link rel="icon" type="image/ico" sizes="32x32" href="/favicon.ico">
-<link rel="icon" type="image/ico" sizes="64x64" href="/favicon.ico">
 
 <link rel="manifest" href="/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+
   </head>
   <body>
     <div class="wrapper">
@@ -115,7 +120,15 @@
 
 <p>Der Code in head.html lautet dann:</p>
 
-<pre><code>&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;57x57&quot; href=&quot;/apple-icon-57x57.png&quot;&gt;
+<pre><code>&lt;link rel=&quot;icon&quot; type=&quot;image/ico&quot; sizes=&quot;16x16&quot; href=&quot;/favicon.ico&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/ico&quot; sizes=&quot;32x32&quot; href=&quot;/favicon.ico&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/ico&quot; sizes=&quot;64x64&quot; href=&quot;/favicon.ico&quot;&gt;
+
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;/favicon-16x16.png&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;/favicon-32x32.png&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;96x96&quot; href=&quot;/favicon-96x96.png&quot;&gt;
+
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;57x57&quot; href=&quot;/apple-icon-57x57.png&quot;&gt;
 &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;60x60&quot; href=&quot;/apple-icon-60x60.png&quot;&gt;
 &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;/apple-icon-72x72.png&quot;&gt;
 &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;76x76&quot; href=&quot;/apple-icon-76x76.png&quot;&gt;
@@ -124,19 +137,16 @@
 &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;/apple-icon-144x144.png&quot;&gt;
 &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;152x152&quot; href=&quot;/apple-icon-152x152.png&quot;&gt;
 &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;180x180&quot; href=&quot;/apple-icon-180x180.png&quot;&gt;
+&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;192x192&quot; href=&quot;/apple-icon-192x192.png&quot;&gt;
 
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;36x36&quot;  href=&quot;/android-icon-36x36.png&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;48x48&quot;  href=&quot;/android-icon-48x48.png&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;72x72&quot;  href=&quot;/android-icon-72x72.png&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;96x96&quot;  href=&quot;/android-icon-96x96.png&quot;&gt;
+&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;144x144&quot;  href=&quot;/android-icon-144x144.png&quot;&gt;
 &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;192x192&quot;  href=&quot;/android-icon-192x192.png&quot;&gt;
 &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;256x256&quot;  href=&quot;/android-icon-256x256.png&quot;&gt;
 &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;512x512&quot;  href=&quot;/android-icon-512x512.png&quot;&gt;
-
-&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;/favicon-16x16.png&quot;&gt;
-&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;/favicon-32x32.png&quot;&gt;
-&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;96x96&quot; href=&quot;/favicon-96x96.png&quot;&gt;
-
-
-&lt;link rel=&quot;icon&quot; type=&quot;image/ico&quot; sizes=&quot;16x16&quot; href=&quot;/favicon.ico&quot;&gt;
-&lt;link rel=&quot;icon&quot; type=&quot;image/ico&quot; sizes=&quot;32x32&quot; href=&quot;/favicon.ico&quot;&gt;
-&lt;link rel=&quot;icon&quot; type=&quot;image/ico&quot; sizes=&quot;64x64&quot; href=&quot;/favicon.ico&quot;&gt;
 
 &lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;
 &lt;meta name=&quot;msapplication-TileColor&quot; content=&quot;#ffffff&quot;&gt;

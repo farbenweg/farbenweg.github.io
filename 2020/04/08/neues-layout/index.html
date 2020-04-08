@@ -111,24 +111,22 @@
 
 <ul>
 <li>Merienda für die Titel,</li>
-<li>Open Sans für die Texte,</li>
+<li>Lato für die Texte,</li>
 </ul></li>
 <li>einen höheren und hellgrünen Header,</li>
 <li>ein grösseres Logo im Header,</li>
-<li>grössere Schriftarten für die Navigation und</li>
 <li>grüne Schrift beim Überfahren der Navigation.</li>
 </ul>
 
 <p>Der Code in /themes/lithium/layouts/partials/head.html lautet dann:</p>
 
 <pre><code>&lt;link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'&gt;
-&lt;link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'&gt;
 </code></pre>
 
 <p>In /themes/lithium/static/css/main.css gab es viele kleine Änderungen:</p>
 
 <pre><code>body {
-font-family: &quot;Open Sans&quot;, sans-serif;
+font-family: &quot;Lato&quot;, sans-serif;
 text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
@@ -153,9 +151,19 @@ font-family: 'Merienda', sans-serif;
 text-align: right;
 }
 
+.nav-logo {
+float: left;
+margin-top: -11px;
+transition: transform 150ms ease-out;
+}
+
+.nav-logo:hover {
+transform: scale(1.1);
+}
+
 .nav-logo img {
 display: block;
-max-height: 160px;
+max-height: 70px;
 width: auto;
 }
 
@@ -165,19 +173,19 @@ color: rgb(0, 190, 0);
 
 @media (min-width: 600px) {
 .header {
-    padding: 80px 0;
+    padding: 25px 0;
 }
 
 .nav-logo {
-    margin-top: -55px;
+    margin-top: -18px;
 }
 
 .nav-logo img {
-    max-height: 160px;
+    max-height: 70px;
 }
 
 .nav-links {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 </code></pre>

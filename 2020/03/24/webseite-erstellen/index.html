@@ -104,7 +104,7 @@
     <div class="article-content">
       
 
-<p>Das ist mein erster Post dieses Jahr. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, <strong>Websites</strong> mit Hugo zu erstellen.</p>
+<p>Das ist mein erster Post dieses Jahr. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, Webseiten mit Hugo zu erstellen.</p>
 
 <p>Dazu benutze ich die drei Komponenten <strong>Hugo</strong>, <strong>Windows PowerShell ISE</strong> und <strong>Visual Studio Code</strong>.</p>
 
@@ -148,7 +148,7 @@ theme = &quot;lithium&quot;
 
 <p>Um einen ersten Blogeintrag zu erstellen, verwende ich den Befehl hugo new post/___.md:</p>
 
-<pre><code>hugo new post/Website-und-Ameisen.md
+<pre><code>hugo new post/Webseite-erstellen.md
 </code></pre>
 
 <p>Es entsteht im Unterverzeichnis content/post/ eine Seite, in die ich einen Eintrag schreiben kann:</p>
@@ -318,9 +318,9 @@ color: rgb(0, 190, 0);
 }
 </code></pre>
 
-<h2 id="neu-github-laden">Neu Github laden</h2>
+<h2 id="neu-auf-github-laden">Neu auf Github laden</h2>
 
-<p>Nach längerem Testen haben sich im Github-Ordner eine Menge angesammelt, die nicht mehr gebraucht werden. Deshalb möchte ich diese Daten löschen. Ich wechsle in den Ordner: farbenweg\blog-lithium\public [master ≡]&gt;</p>
+<p>Nach längerem Testen haben sich im Github-Ordner eine Menge angesammelt, die nicht mehr gebraucht werden. Deshalb möchte ich diese Daten löschen. Wenn ich das Theme wechsle, gehe ich ebenfalls so vor, um das Repository ganz zu leeren. Ich wechsle in den Ordner: farbenweg\blog-lithium\public [master ≡]&gt;</p>
 
 <pre><code>git pull
 git rm -r .
@@ -329,6 +329,37 @@ git push
 </code></pre>
 
 <p>Jetzt ist das Repository leer und ich kann die aktuelle Seite hochladen.</p>
+
+<h2 id="auf-andere-domain-laden">Auf andere Domain laden</h2>
+
+<p>Ich kopiere die bisherige Seite in meinen public-Ordner.</p>
+
+<pre><code>git clone https://github.com/farbenweg/farbenweg.ch public
+</code></pre>
+
+<p>Eventuell lösche ich die alte Seite zuerst:</p>
+
+<pre><code>cd public
+git rm -r .
+git commit -m &quot;leer&quot;
+git push
+</code></pre>
+
+<p>Dann kompiliere ich die Seite und ziehe sie auf die Domain:</p>
+
+<pre><code>git clone https://github.com/farbenweg/farbenweg.ch public
+hugo
+cd public
+git add --all
+git commit -m &quot;inital commit&quot;
+git push origin master
+</code></pre>
+
+<p>Jetzt sind alle Dateien auf der Domain. Leider ist nichts im Browser zu sehen. Ich habe die Datei CNAME vergessen. Sie enthält den Domainnamen, wenn ich eine beliebige Domain wähle:</p>
+
+<pre><code>www.farbenweg.ch
+farbenweg.ch
+</code></pre>
 
     </div>
   </article>
@@ -341,7 +372,7 @@ git push
         <ul class="footer-links">
           
           <li>
-            <a>© 2020 Monika Gloor</a>
+            <a>© 2020 by Monika Gloor</a>
           </li> 
           <li>
             <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>

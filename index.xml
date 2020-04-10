@@ -41,8 +41,8 @@ und wir wieder fließen.</description>
       <pubDate>Tue, 31 Mar 2020 20:52:29 +0200</pubDate>
       
       <guid>/2020/03/31/logo-und-favicon/</guid>
-      <description>Logo Dies ist ein neuer Logo-Entwurf entstanden. Ich habe eine Schrift gefunden, die mir gefällt. Sie heisst Merienda. Passend dazu habe ich den gehenden Menschen verändert. Schliesslich habe ich den Weg angepasst:
- Der grüne Teil ist jetzt dort, wo der Mensch geht. So sieht man seine Beine besser. Der violette Teil befindet sich nun rechts. Der Weg beginnt über dem Schriftzug. Der Weg leicht gewellt oder gerollt.  Das neue Logo sieht so aus:</description>
+      <description>Logo Dies ist ein neuer Logo-Entwurf. Ich habe eine Schrift gefunden, die mir gefällt. Sie heisst Merienda. Passend dazu habe ich den gehenden Menschen verändert. Schliesslich habe ich den Weg angepasst:
+ Der grüne Teil ist jetzt dort, wo der Mensch geht. So sieht man seine Beine besser. Der violette Teil befindet sich nun rechts. Der Weg beginnt über dem Schriftzug. Der Weg leicht gewellt oder gerollt.  Das neue Logo mit transparentem Hintergrund und mit Schriftzug sieht so aus:</description>
     </item>
     
     <item>
@@ -60,7 +60,7 @@ und wir wieder fließen.</description>
       <pubDate>Tue, 24 Mar 2020 09:51:12 +0100</pubDate>
       
       <guid>/2020/03/24/webseite-erstellen/</guid>
-      <description>Das ist mein erster Post dieses Jahr. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, Websites mit Hugo zu erstellen.
+      <description>Das ist mein erster Post dieses Jahr. Heute ist ein sonniger Märztag mit einer kalten Bise. Ich lerne es, Webseiten mit Hugo zu erstellen.
 Dazu benutze ich die drei Komponenten Hugo, Windows PowerShell ISE und Visual Studio Code.
 Eine Seite erstellen In Windows PowerShell gehe ich ins Verzeichnis \farbenweg&amp;gt;. Dort erstelle ich den Ordner blog-lithium und eine neue Hugo Seite:
 md blog-lithium hugo new site ./  Automatisch sind die Ordner archetypes, content, data, layouts, resources, static und themes und die Datei config.</description>
@@ -84,7 +84,7 @@ md blog-lithium hugo new site ./  Automatisch sind die Ordner archetypes, conten
       <description>Blog Der Blog umfasst Texte, Gedichte und Bilder.
 Viel Freude beim Lesen und Anschauen.
 Atelier Das Atelier ist im Entstehen.
-Es entstehen Arbeiten mit Gouache-Farbe, Ton, und diversen anderen Materialien.</description>
+Es werden Arbeiten mit Gouache-Farbe, Ton, und diversen anderen Materialien möglich sein.</description>
     </item>
     
     <item>

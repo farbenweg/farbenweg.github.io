@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Farbenweg </title>
-		<link>/</link>
+		<link>https://github.com/farbenweg/farbenweg.github.io/</link>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<author>Monika Gloor</author>
@@ -9,27 +9,29 @@
 		<updated>2020-04-15 13:42:41 &#43;0200 CEST</updated>
 		
 		<item>
-			<title>Farbenweg Mit Neuem Theme</title>
-			<link>/farbenweg-mit-neuem-theme/</link>
+			<title>Farbenweg nit neuem Theme</title>
+			<link>https://github.com/farbenweg/farbenweg.github.io/farbenweg-mit-neuem-theme/</link>
 			<pubDate>Wed, 15 Apr 2020 13:42:41 CEST</pubDate>
 			<author>Monika Gloor</author>
-			<guid>/farbenweg-mit-neuem-theme/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="/img/willkommen1.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>https://github.com/farbenweg/farbenweg.github.io/farbenweg-mit-neuem-theme/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://github.com/img/willkommen1.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;p&gt;Herzlich willkommen auf dem Farbenweg. Es freut mich, dass du rein schaust.
-&lt;img src=&#34;/img/willkommen1.jpg&#34; alt=&#34;willkommen1&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://github.com/farbenweg/farbenweg.github.io/img/willkommen1.jpg&#34; alt=&#34;willkommen1&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/willkommen1.jpg&#34; alt=&#34;Willkommen&#34;
+&lt;p&gt;&lt;img src=&#34;https://github.com/farbenweg/farbenweg.github.io/img/willkommen1.jpg&#34; alt=&#34;Willkommen&#34;
     title=&#34;Herzlich Willkommen&#34; width=&#34;250&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Heute habe ich mich entschieden ein neues Theme auszuprobieren. Das alte hat&lt;/p&gt;
 </description>
 		</item>
 		
 		<item>
 			<title>The Story Hugo Theme</title>
-			<link>/about-story/</link>
+			<link>https://github.com/farbenweg/farbenweg.github.io/about-story/</link>
 			<pubDate>Mon, 03 Sep 2018 00:00:00 UTC</pubDate>
 			<author>Monika Gloor</author>
-			<guid>/about-story/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="/img/unsplash-photos-o-ubWHV29Uk.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>https://github.com/farbenweg/farbenweg.github.io/about-story/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://github.com/farbenweg/farbenweg.github.io/img/unsplash-photos-o-ubWHV29Uk.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;p&gt;Story is a beautiful Hugo theme.  &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a static website
 generator, which builds websites by rendering
 &lt;a href=&#34;https://commonmark.org/help/&#34;&gt;Markdown&lt;/a&gt; content into templates from themes like
@@ -59,16 +61,16 @@ about software engineering.&lt;/p&gt;
 &lt;p&gt;Story has many more features than this.
 Explore Story and learn all the ways it can help you showcase your work!&lt;/p&gt;
 
-&lt;p&gt;Read next: &lt;a href=&#34;/theme-features&#34;&gt;Story&amp;rsquo;s features&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Read next: &lt;a href=&#34;https://github.com/farbenweg/farbenweg.github.io/theme-features&#34;&gt;Story&amp;rsquo;s features&lt;/a&gt;.&lt;/p&gt;</description>
 		</item>
 		
 		<item>
 			<title>Story&#39;s Figures, Captions, and Tables</title>
-			<link>/figures/</link>
+			<link>https://github.com/farbenweg/farbenweg.github.io/figures/</link>
 			<pubDate>Wed, 22 Aug 2018 00:00:00 UTC</pubDate>
 			<author>Monika Gloor</author>
-			<guid>/figures/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="/img/unsplash-photos-vHnVtLK8rCc.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>https://github.com/farbenweg/farbenweg.github.io/figures/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://github.com/farbenweg/farbenweg.github.io/img/unsplash-photos-vHnVtLK8rCc.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;p&gt;Story can automatically transform images into figures with captions.
 It can also add captions to tables.
 And it adds features and styling to both images and tables.
@@ -91,7 +93,7 @@ _Water lily photo by Zoltan Tasi on Unsplash_
 &lt;p&gt;This markup results in a &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;img...&amp;gt;&amp;lt;em...&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; markup that Story converts into a captioned figure.
 Hover your mouse over the picture to see the caption:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/farbenweg/farbenweg.github.io/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; /&gt;
 &lt;em&gt;Water lily photo by Zoltan Tasi on Unsplash&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;If there&amp;rsquo;s no &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; to use, Story uses the image&amp;rsquo;s &lt;code&gt;title&lt;/code&gt; attribute as a fallback:&lt;/p&gt;
@@ -99,14 +101,14 @@ Hover your mouse over the picture to see the caption:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![Water Lily](/img/unsplash-photos-vHnVtLK8rCc.jpg &amp;quot;A water lily&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; title=&#34;A water lily&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/farbenweg/farbenweg.github.io/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; title=&#34;A water lily&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Finally, Story falls back to the &lt;code&gt;alt&lt;/code&gt; attribute:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![Water Lily](/img/unsplash-photos-vHnVtLK8rCc.jpg)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/farbenweg/farbenweg.github.io/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;table-styling&#34;&gt;Table Styling&lt;/h3&gt;
 
@@ -384,7 +386,7 @@ $( &#34;#tablefw&#34; ).click(function() {
 });
 &lt;/script&gt;
 
-&lt;p&gt;Read next: &lt;a href=&#34;/images/&#34;&gt;Story&amp;rsquo;s image formatting features&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Read next: &lt;a href=&#34;https://github.com/farbenweg/farbenweg.github.io/images/&#34;&gt;Story&amp;rsquo;s image formatting features&lt;/a&gt;.&lt;/p&gt;</description>
 		</item>
 		
 	</channel>

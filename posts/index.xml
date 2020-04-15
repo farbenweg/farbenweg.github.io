@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Farbenweg</title>
-    <link>https://github.com/farbenweg/farbenweg.github.io/posts/</link>
+    <link>https://farbenweg.github.io/posts/</link>
     <description>Recent content in Posts on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 15 Apr 2020 13:42:41 +0200</lastBuildDate>
     
-	<atom:link href="https://github.com/farbenweg/farbenweg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://farbenweg.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Farbenweg nit neuem Theme</title>
-      <link>https://github.com/farbenweg/farbenweg.github.io/farbenweg-mit-neuem-theme/</link>
+      <link>https://farbenweg.github.io/farbenweg-mit-neuem-theme/</link>
       <pubDate>Wed, 15 Apr 2020 13:42:41 +0200</pubDate>
       
-      <guid>https://github.com/farbenweg/farbenweg.github.io/farbenweg-mit-neuem-theme/</guid>
+      <guid>https://farbenweg.github.io/farbenweg-mit-neuem-theme/</guid>
       <description>Herzlich willkommen auf dem Farbenweg. Es freut mich, dass du rein schaust. Heute habe ich mich entschieden ein neues Theme auszuprobieren. Das alte hat</description>
     </item>
     
     <item>
       <title>The Story Hugo Theme</title>
-      <link>https://github.com/farbenweg/farbenweg.github.io/about-story/</link>
+      <link>https://farbenweg.github.io/about-story/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/farbenweg/farbenweg.github.io/about-story/</guid>
+      <guid>https://farbenweg.github.io/about-story/</guid>
       <description>&lt;p&gt;Story is a beautiful Hugo theme.  &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a static website
 generator, which builds websites by rendering
 &lt;a href=&#34;https://commonmark.org/help/&#34;&gt;Markdown&lt;/a&gt; content into templates from themes like
@@ -38,10 +38,10 @@ and powerful at the same time.&lt;/p&gt;</description>
     
     <item>
       <title>Story&#39;s Figures, Captions, and Tables</title>
-      <link>https://github.com/farbenweg/farbenweg.github.io/figures/</link>
+      <link>https://farbenweg.github.io/figures/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/farbenweg/farbenweg.github.io/figures/</guid>
+      <guid>https://farbenweg.github.io/figures/</guid>
       <description>&lt;p&gt;Story can automatically transform images into figures with captions.
 It can also add captions to tables.
 And it adds features and styling to both images and tables.

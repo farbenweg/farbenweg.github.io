@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncategorized on Farbenweg</title>
+    <link>/categories/uncategorized/</link>
+    <description>Recent content in Uncategorized on Farbenweg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Apr 2020 13:42:41 +0200</lastBuildDate>
+    
+	<atom:link href="/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Farbenweg Mit Neuem Theme</title>
+      <link>/farbenweg-mit-neuem-theme/</link>
+      <pubDate>Wed, 15 Apr 2020 13:42:41 +0200</pubDate>
+      
+      <guid>/farbenweg-mit-neuem-theme/</guid>
+      <description>Herzlich willkommen auf dem Farbenweg. Es freut mich, dass du rein schaust. </description>
+    </item>
+    
+  </channel>
+</rss>

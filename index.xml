@@ -1,0 +1,391 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Farbenweg </title>
+		<link>/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<author>Monika Gloor</author>
+		<rights>Copyright (c) 2020</rights>
+		<updated>2020-04-15 13:42:41 &#43;0200 CEST</updated>
+		
+		<item>
+			<title>Farbenweg Mit Neuem Theme</title>
+			<link>/farbenweg-mit-neuem-theme/</link>
+			<pubDate>Wed, 15 Apr 2020 13:42:41 CEST</pubDate>
+			<author>Monika Gloor</author>
+			<guid>/farbenweg-mit-neuem-theme/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="/img/willkommen1.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Herzlich willkommen auf dem Farbenweg. Es freut mich, dass du rein schaust.
+&lt;img src=&#34;/img/willkommen1.jpg&#34; alt=&#34;willkommen1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/willkommen1.jpg&#34; alt=&#34;Willkommen&#34;
+    title=&#34;Herzlich Willkommen&#34; width=&#34;250&#34; /&gt;&lt;/p&gt;
+</description>
+		</item>
+		
+		<item>
+			<title>The Story Hugo Theme</title>
+			<link>/about-story/</link>
+			<pubDate>Mon, 03 Sep 2018 00:00:00 UTC</pubDate>
+			<author>Monika Gloor</author>
+			<guid>/about-story/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="/img/unsplash-photos-o-ubWHV29Uk.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Story is a beautiful Hugo theme.  &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a static website
+generator, which builds websites by rendering
+&lt;a href=&#34;https://commonmark.org/help/&#34;&gt;Markdown&lt;/a&gt; content into templates from themes like
+Story. The resulting site is fast, secure, and easy to build and maintain.&lt;/p&gt;
+
+&lt;p&gt;Story is a responsive theme that supports blogs, with many extra features such
+as presentations, math and music typesetting, and search.  The Story design
+philosophy prioritizes simplicity and elegance, so it can be sophisticated
+and powerful at the same time.&lt;/p&gt;
+
+&lt;p&gt;Story is easy to use, making it a great way to share your writing and speaking
+with the world.  Story is targeted to technical writers and speakers: people
+such as software engineers and open source developers, who want a website for
+their technical work and side projects&amp;mdash;for example, those who write and speak
+about software engineering.&lt;/p&gt;
+
+&lt;p&gt;Story is deceptively simple, while offering the features you need:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Beautiful, responsive typography for long-form content on screen and in print, including blogs and single pages.&lt;/li&gt;
+&lt;li&gt;Support for Remark in-browser slideshows, written in simple Markdown.&lt;/li&gt;
+&lt;li&gt;LaTeX math equation typesetting.&lt;/li&gt;
+&lt;li&gt;Sheet music rendering from ABC music notation.&lt;/li&gt;
+&lt;li&gt;Built-in site search.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Story has many more features than this.
+Explore Story and learn all the ways it can help you showcase your work!&lt;/p&gt;
+
+&lt;p&gt;Read next: &lt;a href=&#34;/theme-features&#34;&gt;Story&amp;rsquo;s features&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Figures, Captions, and Tables</title>
+			<link>/figures/</link>
+			<pubDate>Wed, 22 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Monika Gloor</author>
+			<guid>/figures/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="/img/unsplash-photos-vHnVtLK8rCc.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Story can automatically transform images into figures with captions.
+It can also add captions to tables.
+And it adds features and styling to both images and tables.
+This article is a demo of Story&amp;rsquo;s features for figures, tables, and captions.&lt;/p&gt;
+
+&lt;h3 id=&#34;image-captions-and-figures&#34;&gt;Image Captions and Figures&lt;/h3&gt;
+
+&lt;p&gt;If the &lt;code&gt;feature-figcaption&lt;/code&gt; flag is set (and not negated), Story will transform
+your images into figures, and add a caption. There are several ways this can be done. Story tries
+each method, in the following order.&lt;/p&gt;
+
+&lt;p&gt;First, if an image is followed immediately by an &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; &lt;em&gt;in the same paragraph&lt;/em&gt;, Story treats
+the content of the &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; as the image caption. To enable this, the image and
+the text must not have a blank line between them. Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![Water Lily](/img/unsplash-photos-vHnVtLK8rCc.jpg)
+_Water lily photo by Zoltan Tasi on Unsplash_
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This markup results in a &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;img...&amp;gt;&amp;lt;em...&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; markup that Story converts into a captioned figure.
+Hover your mouse over the picture to see the caption:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; /&gt;
+&lt;em&gt;Water lily photo by Zoltan Tasi on Unsplash&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If there&amp;rsquo;s no &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; to use, Story uses the image&amp;rsquo;s &lt;code&gt;title&lt;/code&gt; attribute as a fallback:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![Water Lily](/img/unsplash-photos-vHnVtLK8rCc.jpg &amp;quot;A water lily&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; title=&#34;A water lily&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, Story falls back to the &lt;code&gt;alt&lt;/code&gt; attribute:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-md&#34;&gt;![Water Lily](/img/unsplash-photos-vHnVtLK8rCc.jpg)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;table-styling&#34;&gt;Table Styling&lt;/h3&gt;
+
+&lt;p&gt;Story has multiple built-in table styles that you can apply with feature flags.
+The default is similar to GitHub&amp;rsquo;s table styling:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Command&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;List all &lt;em&gt;new or modified&lt;/em&gt; files&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git diff&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Show file differences that &lt;strong&gt;haven&amp;rsquo;t been&lt;/strong&gt; staged&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git commit&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Record changes to the repository&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git branch&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;List, create, or delete branches&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;There is &lt;em&gt;also&lt;/em&gt; a style designed for tables that are part of an
+article with figures, resembling scientific papers or other more formal use
+cases. This is enabled with &lt;code&gt;feature-tablefig&lt;/code&gt;. Click &lt;a
+id=&#34;tablefig&#34;&gt;here&lt;/a&gt; to toggle.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Estimated&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Positive and Significant&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Negative and Significant&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Demographic Variables for Head&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Male&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;74&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Age&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Age Squared&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Head&amp;rsquo;s Education&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Completed primary or incomplete secondary&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;76&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;76&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Completed secondary or higher&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;60&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;60&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Completed secondary&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;19&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;19&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Higher&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Unknown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Tables with columns of right-aligned numbers are more readable with fixed-width numerals; click to toggle &lt;a id=&#34;tablefw&#34;&gt;&lt;code&gt;feature-tablefw&lt;/code&gt;&lt;/a&gt;. Observe the table below and see how its columns are easier to read with fixed-width numerals. This is noticeable with Github-style table formatting, but not with academic-style.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Inclination, deg.&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Longitude, Asc. Node, deg.&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Mean Distance, au&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Eccentricity&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Mean  Longitude, deg.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan.&amp;nbsp;28&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.486&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387097&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205644&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;355.3943&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Mar.&amp;nbsp;9&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.487&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205646&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;159.0899&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Apr.&amp;nbsp;18&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.489&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387097&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205649&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;322.7854&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;May&amp;nbsp;28&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.490&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387097&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205650&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;126.4812&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;July&amp;nbsp;7&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.492&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205645&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;290.1771&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Aug.&amp;nbsp;16&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.493&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205645&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;93.8725&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sept.&amp;nbsp;25&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.494&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205642&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;257.5683&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Nov.&amp;nbsp;4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.495&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387099&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205635&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;61.2628&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Dec.&amp;nbsp;14&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.497&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387099&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205635&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;224.9579&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Dec.&amp;nbsp;54&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.498&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205633&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;28.6524&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;Mercury&amp;rsquo;s Heliocentric Osculating Orbital Elements Referred to the Mean Equinox and Ecliptic of Date for 2013&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;caption-styling-and-linking&#34;&gt;Caption Styling And Linking&lt;/h3&gt;
+
+&lt;p&gt;Story uses JavaScript and CSS to make figures and tables more beautiful and
+functional.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Figures and tables get sequentially numbered &lt;code&gt;ID&lt;/code&gt; attributes of &lt;code&gt;#fig-1&lt;/code&gt; and so on, so
+you can link to them.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;feature-figlink&lt;/code&gt; feature flag searches the article for text such as
+Figure 1 and automatically links it to the appropriate figure.&lt;/li&gt;
+&lt;li&gt;If the &lt;code&gt;feature-fignum&lt;/code&gt; feature is enabled, the text of the caption is
+prepended with the figure number. Click here to &lt;a id=&#34;fignum&#34;&gt;toggle this
+feature&lt;/a&gt;, then inspect the captions again to see the effect.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;feature-figcaption-hidden&lt;/code&gt; feature makes the captions hidden until you
+move the mouse over them. The &lt;code&gt;feature-figcaption-visible&lt;/code&gt; feature flag
+overrides this and makes the captions visible immediately below the image.
+Click here to &lt;a id=&#34;figvisible&#34;&gt;toggle this feature&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;table-captions&#34;&gt;Table Captions&lt;/h3&gt;
+
+&lt;p&gt;Story doesn&amp;rsquo;t convert tables to figures, but it can add captions to tables.
+See Table 3, which is followed by a paragraph whose entire content is inside an &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; tag.
+If the &lt;code&gt;feature-tablecaption&lt;/code&gt; feature is enabled, Story will use unobtrusive JavaScript to move that paragraph&amp;rsquo;s text into the table&amp;rsquo;s &lt;code&gt;&amp;lt;caption&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;p&gt;Tables can be autolinked and table captions can be numbered, similar to images.
+These features are controlled by the same &lt;code&gt;feature-figlink&lt;/code&gt; and &lt;code&gt;feature-fignum&lt;/code&gt; flags that control image captioning and linking, so they&amp;rsquo;ll be consistently applied.&lt;/p&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+$( &#34;#fignum&#34; ).click(function() {
+    $(&#34;body&#34;).toggleClass(&#34;feature-fignum&#34;);
+});
+$( &#34;#figvisible&#34; ).click(function() {
+   $(&#34;body&#34;).toggleClass(&#34;feature-figcaption-visible&#34;);
+});
+$( &#34;#tablefig&#34; ).click(function() {
+   $(&#34;body&#34;).toggleClass(&#34;feature-tablefig&#34;);
+});
+$( &#34;#tablefw&#34; ).click(function() {
+   $(&#34;body&#34;).toggleClass(&#34;feature-tablefw&#34;);
+});
+&lt;/script&gt;
+
+&lt;p&gt;Read next: &lt;a href=&#34;/images/&#34;&gt;Story&amp;rsquo;s image formatting features&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+	</channel>
+</rss>

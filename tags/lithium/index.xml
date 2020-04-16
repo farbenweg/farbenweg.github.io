@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lithium on Lithium Theme</title>
+    <link>/tags/lithium/</link>
+    <description>Recent content in lithium on Lithium Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 07 Jun 2019 15:50:16 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/lithium/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lithium</title>
+      <link>/2019/06/07/lithium/</link>
+      <pubDate>Fri, 07 Jun 2019 15:50:16 +0200</pubDate>
+      
+      <guid>/2019/06/07/lithium/</guid>
+      <description>Lithium is a chemical element with symbol Li and atomic number 3. It is a soft, silvery-white alkali metal. Under standard conditions, it is the lightest metal and the lightest solid element. Like all alkali metals, lithium is highly reactive and flammable, and is stored in mineral oil.</description>
+    </item>
+    
+  </channel>
+</rss>

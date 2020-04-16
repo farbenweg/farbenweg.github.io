@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lithium Theme</title>
+    <link>/</link>
+    <description>Recent content on Lithium Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Thu, 16 Apr 2020 06:39:09 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Webseite Mit Hugo Lithium Theme</title>
+      <link>/2020/04/16/webseite-mit-hugo-lithium-theme/</link>
+      <pubDate>Thu, 16 Apr 2020 06:39:09 +0200</pubDate>
+      
+      <guid>/2020/04/16/webseite-mit-hugo-lithium-theme/</guid>
+      <description>Webseite</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>/search/</link>
+      <pubDate>Fri, 07 Jun 2019 20:22:57 +0200</pubDate>
+      
+      <guid>/search/</guid>
+      <description>// define globale variables var idx, searchInput, searchResults = null var documents = [] function renderSearchResults(results){ if (results.length  0) { // show max 10 results if (results.length  9){ results = results.slice(0,10) } // reset search results searchResults.innerHTML = &#39;&#39; // append results results.forEach(result = { // create result item var article = document.createElement(&#39;article&#39;) article.innerHTML = ` ${documents[result.ref].title} ${result.ref}
+` searchResults.appendChild(article) }) // if results are empty } else { searchResults.</description>
+    </item>
+    
+    <item>
+      <title>Lithium</title>
+      <link>/2019/06/07/lithium/</link>
+      <pubDate>Fri, 07 Jun 2019 15:50:16 +0200</pubDate>
+      
+      <guid>/2019/06/07/lithium/</guid>
+      <description>Lithium is a chemical element with symbol Li and atomic number 3. It is a soft, silvery-white alkali metal. Under standard conditions, it is the lightest metal and the lightest solid element. Like all alkali metals, lithium is highly reactive and flammable, and is stored in mineral oil.</description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>/archive/</link>
+      <pubDate>Wed, 07 Nov 2018 09:17:34 +0100</pubDate>
+      
+      <guid>/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/2014/03/27/markdown/</link>
+      <pubDate>Thu, 27 Mar 2014 16:46:14 +0000</pubDate>
+      
+      <guid>/2014/03/27/markdown/</guid>
+      <description>Home This page is written in markdown and rendered as html.
+Visit the about page or keep reading.
+Ordered Lists  First Item Next Item Last Item  Unordered Lists  First thing Another thing Last thing  Task Lists I did this one already Still need to do this one  Quotes One of my favorite quotes is
+ &amp;ldquo;Don&amp;rsquo;t quote me on that&amp;rdquo;
+ Code Snippets function deploy(name: string) { console.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 02 Jul 2013 08:23:30 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>About</description>
+    </item>
+    
+  </channel>
+</rss>

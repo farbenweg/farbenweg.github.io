@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lithium Theme</title>
+    <title>Farbenweg</title>
     <link>/</link>
-    <description>Recent content on Lithium Theme</description>
+    <description>Recent content on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 16 Apr 2020 06:39:09 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2020 22:58:00 +0200</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kontakt</title>
+      <link>/kontakt/</link>
+      <pubDate>Mon, 27 Apr 2020 22:58:00 +0200</pubDate>
+      
+      <guid>/kontakt/</guid>
+      <description>Kontakt.</description>
+    </item>
+    
+    <item>
+      <title>Farbenweg</title>
+      <link>/farbenweg/</link>
+      <pubDate>Mon, 27 Apr 2020 08:22:57 +0000</pubDate>
+      
+      <guid>/farbenweg/</guid>
+      <description>Farbenweg.</description>
+    </item>
+    
+    <item>
+      <title>Über</title>
+      <link>/uber/</link>
+      <pubDate>Mon, 27 Apr 2020 08:22:57 +0000</pubDate>
+      
+      <guid>/uber/</guid>
+      <description>Über.</description>
+    </item>
     
     <item>
       <title>Webseite Mit Hugo Lithium Theme</title>
@@ -59,15 +86,6 @@ Visit the about page or keep reading.
 Ordered Lists  First Item Next Item Last Item  Unordered Lists  First thing Another thing Last thing  Task Lists I did this one already Still need to do this one  Quotes One of my favorite quotes is
  &amp;ldquo;Don&amp;rsquo;t quote me on that&amp;rdquo;
  Code Snippets function deploy(name: string) { console.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Tue, 02 Jul 2013 08:23:30 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>About</description>
     </item>
     
   </channel>

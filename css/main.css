@@ -28,7 +28,7 @@ h3 {
 	font-size: 26px;
 }
 p, li, td, th {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	color: #555;
 	font-size: 16px;
 	line-height: 1.7;
@@ -87,7 +87,7 @@ blockquote::before {
 	font-size: 4em;
 }
 label, input, button {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	color: #555;
 	font-size: 16px;
 	line-height: 1.7;
@@ -146,7 +146,7 @@ nav .logo:hover {
 }
 nav .logo img {
 	display: block;
-	max-height: 100px; /*monika*/
+	max-height: 85px; /*monika*/
 	width: auto;
 }
 nav .search img {
@@ -176,7 +176,7 @@ nav .links li:first-child {
 		margin-left: 0px;
 	}
 	nav .logo img {
-		max-height: 100px; /*monika*/
+		max-height: 85; /*monika*/
 	}
 	nav .links li {
 		margin: 0 0 0 30px;
@@ -351,12 +351,12 @@ footer .links li {
 footer .links a {
 	text-decoration: none;
 	transition: color 150ms ease;
-	margin: 0 15px;
+	margin: 0 8px; /*monika*/
 }
 footer .links li::before {
-	content: '/';
+	content: '-'; /*monika*/
 	position: relative;
-	left: -2px;
+	left: 0px; /*monika*/
 }
 footer .links li:first-child::before {
 	display: none;
@@ -375,44 +375,4 @@ footer .links-kudos img {
 }
 
 /* Dark Mode */
-/*
-@media (prefers-color-scheme: dark) {
-	body,
-	body > header {
-		background-color: #444;
-		color: #e4e4e4;
-	}
-
-	p, li, nav a, label, input,
-	h1, h2, h3, h4, h5, h6, td, th {
-		color: #e4e4e4;
-	}
-	a {
-		color: #e39777;
-	}
-	img {
-		filter: grayscale(30%);
-	}
-	nav .logo img,
-	nav .search img {
-		filter: invert(1)
-	}
-*/
-
-	/* Article */
-
-	article blockquote {
-		background-color: #444;
-	}
-
-	/* Archive */
-
-	section.archive a {
-		color: #e39777;
-	}
-	section.archive .link:hover {
-		background: #cbf8fc;
-		border-bottom-color: #cbf8fc;
-	}
-}
-  
+/*monika*/

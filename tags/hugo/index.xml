@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Webseite on Farbenweg</title>
-    <link>/tags/webseite/</link>
-    <description>Recent content in Webseite on Farbenweg</description>
+    <title>Hugo on Farbenweg</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in Hugo on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Tue, 24 Mar 2020 06:39:09 +0200</lastBuildDate>
     
-	<atom:link href="/tags/webseite/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

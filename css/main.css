@@ -15,8 +15,8 @@ figure  {
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Lato', sans-serif;
-	color: #222;
+	font-family: 'Merienda', sans-serif;
+	color: rgb(0, 190, 0);
 }
 h1 {
 	font-size: 34px;
@@ -29,12 +29,12 @@ h3 {
 }
 p, li, td, th {
 	font-family: 'Lato', sans-serif;
-	color: #555;
+	color: #652;
 	font-size: 16px;
 	line-height: 1.7;
 }
 p.date {
-	color: #ccc;
+	color: #ba7;
 	line-height: 1;
 }
 p.duration {
@@ -47,13 +47,13 @@ nav li {
 	line-height: 1;
 }
 a {
-	color: #555;
+	color: #652;
 	outline: none;
 	text-decoration: none;
 }
 nav a {
 	font-family: 'Merienda', sans-serif; /*monika*/
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: bold;
 	color: #111;
 }
@@ -62,14 +62,14 @@ nav a:hover {
 }
 footer a {
 	font-family: 'Lato', sans-serif;
-	color: #888;
+	color: #ba7;
 }
 footer a:hover, footer a:focus {
-	color: #222;
+	color: #652;
 }
 section.archive a {
 	font-family: 'Lato', sans-serif;
-	color: #222;
+	color: #652;
 	font-size: 21px;
 	font-weight: bold;
 	text-decoration: none;
@@ -88,7 +88,7 @@ blockquote::before {
 }
 label, input, button {
 	font-family: 'Lato', sans-serif;
-	color: #555;
+	color: #652;
 	font-size: 16px;
 	line-height: 1.7;
 }
@@ -96,7 +96,7 @@ table {
     border-collapse: collapse; 
 }
 table tr {
-	border-bottom: 1pt solid #888;
+	/*border-bottom: 1pt solid #888;*/ /*monika*/
 }
 
 @media (min-width: 600px) {
@@ -128,7 +128,7 @@ body > header {
 	padding: 20px 0;
 	position: relative;
 	background: #ecffe4; /*monika*/
-	border-bottom: 1px solid #eaeaea;
+	border-bottom: 1px solid #eda; /*monika*/
 }
 nav {
 	max-width: 800px;
@@ -225,7 +225,7 @@ main hr {
 	height: 1px;
 	overflow: hidden;
 	border: none;
-	background: #e5e5e5;
+	background: #ba7;
 }
 main .highlight {
 	border-radius: 3px;
@@ -312,11 +312,11 @@ section.archive .date {
 section.archive .link {
 	display: inline-block;
 	padding: 5px 0;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #ba7;
 	box-shadow: none;
 }
 section.archive .link:hover {
-	border-bottom-color: #222;
+	border-bottom-color: #652;
 	background: none;
 }
 

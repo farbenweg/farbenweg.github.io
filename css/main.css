@@ -36,7 +36,7 @@ p, li, td, th {
 	line-height: 1.7;
 }
 p.date {
-	color: #ba7;
+	color: #cb7;
 	line-height: 1;
 }
 p.duration {
@@ -64,7 +64,7 @@ nav a:hover {
 }
 footer a {
 	font-family: 'Lato', sans-serif;
-	color: #ba7;
+	color: #cb7;
 }
 footer a:hover, footer a:focus {
 	color: #652;
@@ -227,7 +227,7 @@ main hr {
 	height: 1px;
 	overflow: hidden;
 	border: none;
-	background: #ba7;
+	background: #cb7;
 }
 main .highlight {
 	border-radius: 3px;
@@ -314,7 +314,7 @@ section.archive .date {
 section.archive .link {
 	display: inline-block;
 	padding: 5px 0;
-	border-bottom: 1px solid #ba7;
+	border-bottom: 1px solid #cb7;
 	box-shadow: none;
 }
 section.archive .link:hover {

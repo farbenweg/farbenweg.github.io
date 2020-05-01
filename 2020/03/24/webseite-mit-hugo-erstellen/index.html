@@ -98,7 +98,7 @@ Eine Hugo-Seite erstellen In der Windows PowerShell erstellen wir den Ordner fü
 
           
 
-        <h1 class="title">Webseite mit Hugo erstellen</h1>
+        <h2 class="title">Webseite mit Hugo erstellen</h2>
         
         <p class="date">24.03.2020</p> 
 
@@ -113,7 +113,7 @@ Eine Hugo-Seite erstellen In der Windows PowerShell erstellen wir den Ordner fü
 
 <p>Wir benutzen die drei Komponenten Hugo, Windows PowerShell ISE, Visual Studio Code und Github. Chris hat einen bebilderten Artikel zum Einstieg in <a href="http://cinereal.info/article/github-pages/">Github-Seiten</a> verfasst.</p>
 
-<h2 id="eine-hugo-seite-erstellen">Eine Hugo-Seite erstellen</h2>
+<h3 id="eine-hugo-seite-erstellen">Eine Hugo-Seite erstellen</h3>
 
 <p>In der Windows PowerShell erstellen wir den Ordner für die neue Hugo-Seite. In meinem Fall heißt der Ordner
 &ldquo;blog-lithium&rdquo;:</p>
@@ -132,7 +132,7 @@ title = &quot;Farbenweg&quot;
 
 <p>Eine leere Seite ist generiert.</p>
 
-<h2 id="ein-hugo-theme-herunterladen">Ein Hugo-Theme herunterladen</h2>
+<h3 id="ein-hugo-theme-herunterladen">Ein Hugo-Theme herunterladen</h3>
 
 <p>Um ein Theme zu installieren, wechseln wir ins entsprechende Verzeichnis.</p>
 
@@ -151,7 +151,7 @@ theme = &quot;lithium&quot;
 
 <p>Dann kopieren wir die Inhalte von ExampleSite in unser Seiten-Verzeichnis.</p>
 
-<h2 id="einen-hugo-inhalt-erstellen">Einen Hugo-Inhalt erstellen</h2>
+<h3 id="einen-hugo-inhalt-erstellen">Einen Hugo-Inhalt erstellen</h3>
 
 <p>Um einen ersten Blogeintrag zu erstellen, verwenden wir den Befehl hugo new post/___.md:</p>
 
@@ -182,7 +182,7 @@ Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise.
 
 <p>und gehen auf <a href="http://localhost:1313/">http://localhost:1313/</a>. Die Webseite und das Bild werden angezeigt.</p>
 
-<h2 id="webseite-auf-domain-ziehen">Webseite auf Domain ziehen</h2>
+<h3 id="webseite-auf-domain-ziehen">Webseite auf Domain ziehen</h3>
 
 <p>Um die Website auf einer Github-Domain anzuzeigen, gehen wir folgendermaßen vor.</p>
 
@@ -210,7 +210,7 @@ git push origin master
 <pre><code>baseURL = &quot;https://farbenweg.github.io/&quot;
 </code></pre>
 
-<h2 id="das-über-funktioniert">Das Über funktioniert</h2>
+<h3 id="das-über-funktioniert">Das Über funktioniert</h3>
 
 <p>Schon seit einiger Zeit fragte ich mich, ob in Hugo deutsche Page-Titel funktionieren. Vor allem für die Über-Seite war es mir wichtig. Die Lösung habe ich heute hier gefunden:</p>
 
@@ -228,7 +228,7 @@ git push origin master
 
 <p>Und entsprechend sieht es für den Titel dieses Posts aus.</p>
 
-<h2 id="neues-layout">Neues Layout</h2>
+<h3 id="neues-layout">Neues Layout</h3>
 
 <p>Das neue Layout umfasst</p>
 
@@ -252,7 +252,7 @@ git push origin master
 
 <p>In /themes/lithium/static/css/main.css gab es viele kleine Änderungen für das neue Layout.</p>
 
-<h2 id="neu-auf-github-laden">Neu auf Github laden</h2>
+<h3 id="neu-auf-github-laden">Neu auf Github laden</h3>
 
 <p>Nach längerem Testen haben sich im Github-Ordner eine Menge angesammelt, die nicht mehr gebraucht werden. Deshalb möchte ich diese Daten löschen. Wenn ich das Theme wechsle, gehe ich ebenfalls so vor, um das Repository ganz zu leeren. Ich wechsle in den Ordner: farbenweg\blog-lithium\public [master ≡]&gt;</p>
 
@@ -264,7 +264,7 @@ git push
 
 <p>Jetzt ist das Repository leer und ich kann die aktuelle Seite hochladen.</p>
 
-<h2 id="auf-andere-domain-laden">Auf andere Domain laden</h2>
+<h3 id="auf-andere-domain-laden">Auf andere Domain laden</h3>
 
 <p>Um eine andere Domain zu verwenden, klonen wir das entsprechende Repository in unseren public-Ordner.</p>
 
@@ -295,7 +295,7 @@ git push origin master
 
 <p>Nun funktioniert die Hugo-Seite auf der Domain farbenweg.ch.</p>
 
-<h2 id="favicon">Favicon</h2>
+<h3 id="favicon">Favicon</h3>
 
 <p>Jedes Gerät und Betriebssystem verlangt sein eigenes Favicon. Deshalb erstellen wir das Favicon am besten in verschiedenen Grössen und Dateiformaten. Die ganz kleinen Favicons nennen sich favicon.ico oder favicon.png und befinden sich oben im Fenster oder im Tab. Sie sind 16 x 16 Pixel, 32 x 32 Pixel oder 48 x 48 Pixel klein:</p>
 
@@ -372,23 +372,21 @@ git push origin master
 
 			
 			<li>
-				<a href="/search/">Search</a>
+				<a href="/search/">Suche</a>
 			</li>
 			
 			
 			<li>
-				<a href="/archive/">Archive</a>
+				<a href="/archive/">Archiv</a>
 			</li>
 			
 			<li>
-				<a href="/categories">Categories</a>
+				<a href="/categories">Kategorien</a>
 			</li>
 			<li>
 				<a href="/tags">Tags</a>
 			</li>
-			<li>
-				<a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-			</li>
+			 
 			<li>
 				<a href="https://gohugo.io/" class="links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
 			</li>

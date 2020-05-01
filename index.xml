@@ -6,10 +6,19 @@
     <description>Recent content on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 28 Apr 2020 07:38:30 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 07:05:07 +0200</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Archive</title>
+      <link>/archive/</link>
+      <pubDate>Fri, 01 May 2020 07:05:07 +0200</pubDate>
+      
+      <guid>/archive/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Baumrinden bestaunen</title>
@@ -136,7 +145,7 @@ und wir wieder fließen.</description>
       <pubDate>Thu, 26 Mar 2020 15:46:37 +0100</pubDate>
       
       <guid>/2020/03/26/das-atelier-entsteht/</guid>
-      <description>Das Atelier ist im Entstehen. Die Treppe können wir runter gehen.
+      <description>Die Treppe ist fertig. Das Atelier ist im Entstehen. Hier ein paar Impressionen aus dem Atelier.
               </description>
     </item>
     
@@ -159,15 +168,6 @@ Eine Hugo-Seite erstellen In der Windows PowerShell erstellen wir den Ordner fü
       <guid>/search/</guid>
       <description>// define globale variables var idx, searchInput, searchResults = null var documents = [] function renderSearchResults(results){ if (results.length  0) { // show max 10 results if (results.length  9){ results = results.slice(0,10) } // reset search results searchResults.innerHTML = &#39;&#39; // append results results.forEach(result = { // create result item var article = document.createElement(&#39;article&#39;) article.innerHTML = ` ${documents[result.ref].title} ${result.ref}
 ` searchResults.appendChild(article) }) // if results are empty } else { searchResults.</description>
-    </item>
-    
-    <item>
-      <title>Archive</title>
-      <link>/archive/</link>
-      <pubDate>Wed, 07 Nov 2018 09:17:34 +0100</pubDate>
-      
-      <guid>/archive/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/archive/</loc>
-    <lastmod>2020-05-01T07:05:07+02:00</lastmod>
+    <loc>/categories/blog/</loc>
+    <lastmod>2020-05-03T17:15:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-05-03T17:15:44+02:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-05-03T17:15:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hello/</loc>
+    <lastmod>2020-05-03T17:15:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-03T17:15:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/05/03/sunflower-seeds-ai-weiwei/</loc>
+    <lastmod>2020-05-03T17:15:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-05-03T17:15:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/world/</loc>
+    <lastmod>2020-05-03T17:15:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/archive/</loc>
     <lastmod>2020-05-01T07:05:07+02:00</lastmod>
   </url>
   
@@ -28,22 +63,7 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-04-28T07:38:30+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/gedichte/</loc>
-    <lastmod>2020-04-28T07:38:30+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-04-28T07:38:30+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-04-28T07:38:30+02:00</lastmod>
   </url>
   
@@ -73,11 +93,6 @@
   </url>
   
   <url>
-    <loc>/categories/blog/</loc>
-    <lastmod>2020-04-18T08:22:30+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/gedankliche-autobahn/</loc>
     <lastmod>2020-04-18T08:22:30+02:00</lastmod>
   </url>
@@ -103,12 +118,12 @@
   </url>
   
   <url>
-    <loc>/categories/atelier/</loc>
+    <loc>/tags/atelier/</loc>
     <lastmod>2020-03-26T15:46:37+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/atelier/</loc>
+    <loc>/categories/atelier/</loc>
     <lastmod>2020-03-26T15:46:37+01:00</lastmod>
   </url>
   

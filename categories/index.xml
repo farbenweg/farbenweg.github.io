@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Farbenweg</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Farbenweg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Tue, 28 Apr 2020 07:38:30 +0200</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gedichte</title>
+      <link>/categories/gedichte/</link>
+      <pubDate>Tue, 28 Apr 2020 07:38:30 +0200</pubDate>
+      
+      <guid>/categories/gedichte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>/categories/blog/</link>
+      <pubDate>Sat, 18 Apr 2020 08:22:30 +0200</pubDate>
+      
+      <guid>/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atelier</title>
+      <link>/categories/atelier/</link>
+      <pubDate>Thu, 26 Mar 2020 15:46:37 +0100</pubDate>
+      
+      <guid>/categories/atelier/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

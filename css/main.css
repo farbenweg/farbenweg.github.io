@@ -39,6 +39,10 @@ p.date {
 	color: #cb7;
 	line-height: 1;
 }
+p.subtitle { /*monika*/
+	color: #cb7;
+	line-height: 1.5;
+}
 p.duration {
 	font-family: 'Lato', sans-serif;
 	color: #fff;
@@ -339,6 +343,7 @@ section.search .title {
 footer {
 	padding: 25px 0;
 	text-align: center;
+	margin-left: -40px; /*monika*/ /*center footer!*/
 }
 footer.links {
 	list-style: none;
@@ -359,6 +364,7 @@ footer .links li::before {
 	content: '-'; /*monika*/
 	position: relative;
 	left: 0px; /*monika*/
+	color: #cb7; /*monika*/
 }
 footer .links li:first-child::before {
 	display: none;

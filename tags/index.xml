@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Farbenweg</title>
-    <link>/tags/</link>
+    <link>https://farbenweg.github.io/tags/</link>
     <description>Recent content in Tags on Farbenweg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Tue, 28 Apr 2020 07:38:30 +0200</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://farbenweg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Baumrinden bestaunen</title>
-      <link>/tags/baumrinden-bestaunen/</link>
+      <link>https://farbenweg.github.io/tags/baumrinden-bestaunen/</link>
       <pubDate>Tue, 28 Apr 2020 07:38:30 +0200</pubDate>
       
-      <guid>/tags/baumrinden-bestaunen/</guid>
+      <guid>https://farbenweg.github.io/tags/baumrinden-bestaunen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Können Ketten retten</title>
-      <link>/tags/konnen-ketten-retten/</link>
+      <link>https://farbenweg.github.io/tags/konnen-ketten-retten/</link>
       <pubDate>Fri, 24 Apr 2020 21:56:25 +0200</pubDate>
       
-      <guid>/tags/konnen-ketten-retten/</guid>
+      <guid>https://farbenweg.github.io/tags/konnen-ketten-retten/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gedankliche Autobahn</title>
-      <link>/tags/gedankliche-autobahn/</link>
+      <link>https://farbenweg.github.io/tags/gedankliche-autobahn/</link>
       <pubDate>Sat, 18 Apr 2020 08:22:30 +0200</pubDate>
       
-      <guid>/tags/gedankliche-autobahn/</guid>
+      <guid>https://farbenweg.github.io/tags/gedankliche-autobahn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selbstvertrauen</title>
-      <link>/tags/selbstvertrauen/</link>
+      <link>https://farbenweg.github.io/tags/selbstvertrauen/</link>
       <pubDate>Sat, 18 Apr 2020 08:22:30 +0200</pubDate>
       
-      <guid>/tags/selbstvertrauen/</guid>
+      <guid>https://farbenweg.github.io/tags/selbstvertrauen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wenn das Leben kaum fließt</title>
-      <link>/tags/wenn-das-leben-kaum-flie%C3%9Ft/</link>
+      <link>https://farbenweg.github.io/tags/wenn-das-leben-kaum-flie%C3%9Ft/</link>
       <pubDate>Wed, 08 Apr 2020 22:36:13 +0200</pubDate>
       
-      <guid>/tags/wenn-das-leben-kaum-flie%C3%9Ft/</guid>
+      <guid>https://farbenweg.github.io/tags/wenn-das-leben-kaum-flie%C3%9Ft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Atelier</title>
-      <link>/tags/atelier/</link>
+      <link>https://farbenweg.github.io/tags/atelier/</link>
       <pubDate>Thu, 26 Mar 2020 15:46:37 +0100</pubDate>
       
-      <guid>/tags/atelier/</guid>
+      <guid>https://farbenweg.github.io/tags/atelier/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
+      <link>https://farbenweg.github.io/tags/hugo/</link>
       <pubDate>Tue, 24 Mar 2020 06:39:09 +0200</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>https://farbenweg.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Webseite</title>
-      <link>/tags/webseite/</link>
+      <link>https://farbenweg.github.io/tags/webseite/</link>
       <pubDate>Tue, 24 Mar 2020 06:39:09 +0200</pubDate>
       
-      <guid>/tags/webseite/</guid>
+      <guid>https://farbenweg.github.io/tags/webseite/</guid>
       <description></description>
     </item>
     

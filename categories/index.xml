@@ -21,11 +21,20 @@
     </item>
     
     <item>
-      <title>Blog</title>
-      <link>https://farbenweg.github.io/categories/blog/</link>
+      <title>Leben</title>
+      <link>https://farbenweg.github.io/categories/leben/</link>
+      <pubDate>Tue, 28 Apr 2020 07:38:30 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/categories/leben/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Texte</title>
+      <link>https://farbenweg.github.io/categories/texte/</link>
       <pubDate>Sat, 18 Apr 2020 08:22:30 +0200</pubDate>
       
-      <guid>https://farbenweg.github.io/categories/blog/</guid>
+      <guid>https://farbenweg.github.io/categories/texte/</guid>
       <description></description>
     </item>
     
@@ -35,6 +44,15 @@
       <pubDate>Thu, 26 Mar 2020 15:46:37 +0100</pubDate>
       
       <guid>https://farbenweg.github.io/categories/atelier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webseite</title>
+      <link>https://farbenweg.github.io/categories/webseite/</link>
+      <pubDate>Tue, 24 Mar 2020 06:39:09 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/categories/webseite/</guid>
       <description></description>
     </item>
     

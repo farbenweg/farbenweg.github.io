@@ -12,20 +12,65 @@
     
     
     <item>
-      <title>Baumrinden bestaunen</title>
-      <link>https://farbenweg.github.io/tags/baumrinden-bestaunen/</link>
+      <title>Trost</title>
+      <link>https://farbenweg.github.io/tags/trost/</link>
       <pubDate>Tue, 28 Apr 2020 07:38:30 +0200</pubDate>
       
-      <guid>https://farbenweg.github.io/tags/baumrinden-bestaunen/</guid>
+      <guid>https://farbenweg.github.io/tags/trost/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Können Ketten retten</title>
-      <link>https://farbenweg.github.io/tags/konnen-ketten-retten/</link>
+      <title>Vertrauen</title>
+      <link>https://farbenweg.github.io/tags/vertrauen/</link>
+      <pubDate>Tue, 28 Apr 2020 07:38:30 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/tags/vertrauen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wald</title>
+      <link>https://farbenweg.github.io/tags/wald/</link>
+      <pubDate>Tue, 28 Apr 2020 07:38:30 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/tags/wald/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fliegen</title>
+      <link>https://farbenweg.github.io/tags/fliegen/</link>
       <pubDate>Fri, 24 Apr 2020 21:56:25 +0200</pubDate>
       
-      <guid>https://farbenweg.github.io/tags/konnen-ketten-retten/</guid>
+      <guid>https://farbenweg.github.io/tags/fliegen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freiheit</title>
+      <link>https://farbenweg.github.io/tags/freiheit/</link>
+      <pubDate>Fri, 24 Apr 2020 21:56:25 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/tags/freiheit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ketten</title>
+      <link>https://farbenweg.github.io/tags/ketten/</link>
+      <pubDate>Fri, 24 Apr 2020 21:56:25 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/tags/ketten/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bloggen</title>
+      <link>https://farbenweg.github.io/tags/bloggen/</link>
+      <pubDate>Sat, 18 Apr 2020 08:22:30 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/tags/bloggen/</guid>
       <description></description>
     </item>
     
@@ -48,11 +93,20 @@
     </item>
     
     <item>
-      <title>Wenn das Leben kaum fließt</title>
-      <link>https://farbenweg.github.io/tags/wenn-das-leben-kaum-flie%C3%9Ft/</link>
+      <title>Feststecken</title>
+      <link>https://farbenweg.github.io/tags/feststecken/</link>
       <pubDate>Wed, 08 Apr 2020 22:36:13 +0200</pubDate>
       
-      <guid>https://farbenweg.github.io/tags/wenn-das-leben-kaum-flie%C3%9Ft/</guid>
+      <guid>https://farbenweg.github.io/tags/feststecken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>im Fluss</title>
+      <link>https://farbenweg.github.io/tags/im-fluss/</link>
+      <pubDate>Wed, 08 Apr 2020 22:36:13 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/tags/im-fluss/</guid>
       <description></description>
     </item>
     
@@ -66,6 +120,15 @@
     </item>
     
     <item>
+      <title>Github</title>
+      <link>https://farbenweg.github.io/tags/github/</link>
+      <pubDate>Tue, 24 Mar 2020 06:39:09 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>https://farbenweg.github.io/tags/hugo/</link>
       <pubDate>Tue, 24 Mar 2020 06:39:09 +0200</pubDate>
@@ -75,11 +138,20 @@
     </item>
     
     <item>
-      <title>Webseite</title>
-      <link>https://farbenweg.github.io/tags/webseite/</link>
+      <title>Lithium Theme</title>
+      <link>https://farbenweg.github.io/tags/lithium-theme/</link>
       <pubDate>Tue, 24 Mar 2020 06:39:09 +0200</pubDate>
       
-      <guid>https://farbenweg.github.io/tags/webseite/</guid>
+      <guid>https://farbenweg.github.io/tags/lithium-theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statische Webseite</title>
+      <link>https://farbenweg.github.io/tags/statische-webseite/</link>
+      <pubDate>Tue, 24 Mar 2020 06:39:09 +0200</pubDate>
+      
+      <guid>https://farbenweg.github.io/tags/statische-webseite/</guid>
       <description></description>
     </item>
     

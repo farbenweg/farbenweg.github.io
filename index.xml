@@ -70,19 +70,19 @@ Kreatives Schaffen mit diversen Ausdrucksmitteln ist möglich.</description>
     
     <item>
       <title>Über</title>
-      <link>https://farbenweg.github.io/uber/</link>
+      <link>https://farbenweg.github.io/ueber/</link>
       <pubDate>Mon, 27 Apr 2020 08:22:57 +0000</pubDate>
       
-      <guid>https://farbenweg.github.io/uber/</guid>
+      <guid>https://farbenweg.github.io/ueber/</guid>
       <description>Über.</description>
     </item>
     
     <item>
       <title>Können Ketten retten?</title>
-      <link>https://farbenweg.github.io/2020/04/24/konnen-ketten-retten/</link>
+      <link>https://farbenweg.github.io/2020/04/24/koennen-ketten-retten/</link>
       <pubDate>Fri, 24 Apr 2020 21:56:25 +0200</pubDate>
       
-      <guid>https://farbenweg.github.io/2020/04/24/konnen-ketten-retten/</guid>
+      <guid>https://farbenweg.github.io/2020/04/24/koennen-ketten-retten/</guid>
       <description>&amp;ndash; Frei sein &amp;ndash;   Ich bin gefangen,
 wie kam ich rein?
 Schmerzen und Bangen,
@@ -116,10 +116,10 @@ In der Ausbildung kommt die Aufgabe von außen. Wie schaffe ich es auch von inne
     
     <item>
       <title>Wenn das Leben kaum fließt</title>
-      <link>https://farbenweg.github.io/2020/04/08/wenn-das-leben-kaum-flie%C3%9Ft/</link>
+      <link>https://farbenweg.github.io/2020/04/08/wenn-das-leben-kaum-fliesst/</link>
       <pubDate>Wed, 08 Apr 2020 22:36:13 +0200</pubDate>
       
-      <guid>https://farbenweg.github.io/2020/04/08/wenn-das-leben-kaum-flie%C3%9Ft/</guid>
+      <guid>https://farbenweg.github.io/2020/04/08/wenn-das-leben-kaum-fliesst/</guid>
       <description>&amp;ndash; Fließen &amp;ndash;   Wenn das Leben kaum fließt.
 Wenn der Regen kaum gießt,
 auf die großen Straßen.
@@ -155,13 +155,13 @@ und wir wieder fließen.</description>
       <pubDate>Tue, 24 Mar 2020 06:39:09 +0200</pubDate>
       
       <guid>https://farbenweg.github.io/2020/03/24/webseite-mit-hugo-erstellen/</guid>
-      <description>Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise. Wie erstellen wir eine Webseite mit Hugo und Github?
-Wir benutzen die drei Komponenten Hugo, Windows PowerShell ISE, Visual Studio Code und Github. Chris hat einen bebilderten Artikel zum Einstieg in Github-Seiten verfasst.
-Eine Hugo-Seite erstellen In der Windows PowerShell erstellen wir den Ordner für die neue Hugo-Seite. In meinem Fall heißt der Ordner &amp;ldquo;blog-lithium&amp;rdquo;:</description>
+      <description>Das ist mein erster Post. Heute ist ein sonniger Märztag mit einer kalten Bise. Wie erstelle ich eine Webseite mit Hugo und Github?
+Ich habe mich für eine statische Webseite entschieden. Hier finden wir einen Bericht von Chris über statische Webseiten-Generatoren. Wir benutzen die drei Komponenten Hugo, Windows PowerShell ISE, Visual Studio Code und Github. Chris hat auch einen bebilderten Artikel zum Einstieg in Github-Seiten verfasst.
+Eine Hugo-Seite erstellen In der Windows PowerShell erstellen wir den Ordner für die neue Hugo-Seite.</description>
     </item>
     
     <item>
-      <title>Search</title>
+      <title>Suche</title>
       <link>https://farbenweg.github.io/search/</link>
       <pubDate>Fri, 07 Jun 2019 20:22:57 +0200</pubDate>
       

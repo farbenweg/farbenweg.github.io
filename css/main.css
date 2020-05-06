@@ -320,11 +320,11 @@ section.archive .date {
 section.archive .link {
 	display: inline-block;
 	padding: 5px 0;
-	border-bottom: 1px solid #cb7;
+	border-bottom: 3px solid #cb7;
 	box-shadow: none;
 }
 section.archive .link:hover {
-	border-bottom-color: #652;
+	border-bottom-color: rgb(0, 190, 0);
 	background: none;
 }
 

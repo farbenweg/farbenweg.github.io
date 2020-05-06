@@ -101,9 +101,9 @@ label, input, button {
 table { 
     border-collapse: collapse; 
 }
-table tr {
-	/*border-bottom: 1pt solid #888;*/ /*monika*/
-}
+/*table tr {
+	border-bottom: 1pt solid #888;
+}*/  /*monika*/
 
 @media (min-width: 600px) {
 
@@ -281,7 +281,7 @@ article p.date {
 article a:hover,
 article a:focus {
 	/*background: #CBF8DF;*/
-	background: rgb(162, 250, 162); /*monika*/
+	background: rgb(202, 250, 202); /*monika*/
 }
 article blockquote {
 	width:60%;

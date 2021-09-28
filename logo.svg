@@ -37,9 +37,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="423.02615"
-     inkscape:cy="625.33067"
+     inkscape:zoom="0.35"
+     inkscape:cx="-367.14286"
+     inkscape:cy="560"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,8 +65,8 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="matrix(2.1312522,0,0,2.1312522,-278.75086,-645.31598)"
-       style="display:inline;stroke-width:0.46920773"
+       transform="translate(-94.71083,-210.51468)"
+       style="display:inline"
        id="g1125"
        clip-path="url(#clipPath1127)"
        inkscape:export-xdpi="599.992"
@@ -77,7 +77,7 @@
          height="38.802723"
          width="45.602848"
          id="rect1686-7-4-4"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#808080;stroke-width:0.04692078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#808080;stroke-width:0.10000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          inkscape:export-ydpi="599.992"
          inkscape:export-xdpi="599.992"
@@ -106,7 +106,7 @@
          d="m 179.79969,357.98831 c 0.12795,2.89783 7.21727,5.82607 10.75975,9.57558 -4.43432,-6.03918 -6.98085,-8.02246 -6.99202,-9.14627 -0.0308,-3.09544 6.1636,-5.45088 19.87999,-9.98304 -18.20125,3.7789 -23.76361,6.92897 -23.64772,9.55373 z"
          style="display:inline;fill:#ffcc00;fill-opacity:1;stroke:#ffff00;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <g
-         style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.46920773"
+         style="display:inline;fill:#000000;fill-opacity:1"
          id="g1081-2-7"
          transform="translate(87.237677,4.0923123)">
         <g
@@ -115,7 +115,7 @@
            inkscape:export-xdpi="599.992"
            inkscape:export-ydpi="599.992"
            transform="matrix(0.45121061,0,0,0.48361995,68.236003,334.45486)"
-           style="fill:#000000;fill-opacity:1;stroke-width:1.00443876">
+           style="fill:#000000;fill-opacity:1;stroke-width:2.14071226">
           <path
              sodipodi:nodetypes="cczc"
              inkscape:connector-curvature="0"

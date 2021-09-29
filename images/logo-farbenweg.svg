@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="54px"
-   height="54px"
-   viewBox="0 0 54 54"
+   width="217px"
+   height="29px"
+   viewBox="0 0 217 29"
    version="1.1"
    id="svg12"
-   sodipodi:docname="logo-mobile.svg"
+   sodipodi:docname="logo-farbenweg.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata16">
@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>logo</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -38,16 +39,16 @@
      inkscape:window-height="1001"
      id="namedview14"
      showgrid="false"
-     inkscape:zoom="4.3703704"
-     inkscape:cx="-34.436441"
-     inkscape:cy="27"
+     inkscape:zoom="2.8740469"
+     inkscape:cx="329.93329"
+     inkscape:cy="11.802178"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg12" />
+     inkscape:current-layer="Page-1" />
   <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
   <title
-     id="title2">logo-mobile</title>
+     id="title2">logo</title>
   <desc
      id="desc4">Created with Sketch.</desc>
   <defs
@@ -65,8 +66,24 @@
     </clipPath>
   </defs>
   <g
-     transform="matrix(1.6044712,0,0,1.6044712,-260.57721,-562.44784)"
-     style="display:inline;stroke-width:2.35562205"
+     id="Page-1"
+     transform="translate(11.134126,-2.7835315)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.09535599px;line-height:1;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.99999994"
+       x="31.317991"
+       y="27.759583"
+       id="text881"><tspan
+         sodipodi:role="line"
+         id="tspan879"
+         x="31.317991"
+         y="27.759583"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.09535599px;font-family:Lato;-inkscape-font-specification:'Lato, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.99999994">FARBENWEG</tspan></text>
+  </g>
+  <g
+     transform="matrix(1.1982864,0,0,1.1982864,-195.08521,-427.48237)"
+     style="display:inline;stroke-width:3.15411043"
      id="g1125"
      clip-path="url(#clipPath1127)"
      inkscape:export-xdpi="599.992"
@@ -77,7 +94,7 @@
        height="38.802723"
        width="45.602848"
        id="rect1686-7-4-4"
-       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#808080;stroke-width:0.23556225;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#808080;stroke-width:0.31541109;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        inkscape:export-ydpi="599.992"
        inkscape:export-xdpi="599.992"
@@ -106,7 +123,7 @@
        d="m 179.79969,357.98831 c 0.12795,2.89783 7.21727,5.82607 10.75975,9.57558 -4.43432,-6.03918 -6.98085,-8.02246 -6.99202,-9.14627 -0.0308,-3.09544 6.1636,-5.45088 19.87999,-9.98304 -18.20125,3.7789 -23.76361,6.92897 -23.64772,9.55373 z"
        style="display:inline;fill:#ffcc00;fill-opacity:1;stroke:#ffff00;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
-       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:2.35562205"
+       style="display:inline;fill:#000000;fill-opacity:1;stroke-width:3.15411043"
        id="g1081-2-7"
        transform="translate(87.237677,4.0923123)">
       <g
@@ -115,7 +132,7 @@
          inkscape:export-xdpi="599.992"
          inkscape:export-ydpi="599.992"
          transform="matrix(0.45121061,0,0,0.48361995,68.236003,334.45486)"
-         style="fill:#000000;fill-opacity:1;stroke-width:5.04270887">
+         style="fill:#000000;fill-opacity:1;stroke-width:6.75204277">
         <path
            sodipodi:nodetypes="cczc"
            inkscape:connector-curvature="0"
